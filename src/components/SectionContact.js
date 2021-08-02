@@ -60,9 +60,9 @@ export default function SectionContact(props) {
             </div>
             <style global jsx>{`
                 :root {
-                    --pricing-background-color: ${backgroundColor};
-                    --pricing-title-color: ${titleColor};
-                    --pricing-text-color: ${textColor};
+                    --contact-background-color: ${backgroundColor};
+                    --contact-title-color: ${titleColor};
+                    --contact-text-color: ${textColor};
                 };
             `}</style>
         </section>
