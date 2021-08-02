@@ -65,6 +65,11 @@ export default function Footer(props) {
                     </div>
                 </div>
             </div>
+            <style global jsx>{`
+                :root {
+                    --footer-background-color: ${backgroundColor};
+                };
+            `}</style>
         </footer>
     );
 }
