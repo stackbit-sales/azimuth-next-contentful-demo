@@ -14,7 +14,7 @@ export default function SectionFeatures(props) {
     const features = _.get(section, 'features');
 
     return (
-        <section id={sectionId} className={`block features-block bg-${background} outer`}>
+        <section id={sectionId} className={`block features-block features-background-color bg-${background} outer`}>
             <div className="block-header inner-small">
                 {title && <h2 className="block-title">{title}</h2>}
                 {subtitle && <p className="block-subtitle">{subtitle}</p>}
