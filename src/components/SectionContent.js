@@ -28,7 +28,7 @@ export default function SectionContent(props) {
                         </div>
                     )}
                     <div className="cell block-content">
-                        {title && <h2 className="block-title underline">{title}</h2>}
+                        {title && <h2 className="block-title content-title-color">{title}</h2>}
                         {content && (
                             <div className="block-copy">
                                 <ReactMarkdown>{content}</ReactMarkdown>
