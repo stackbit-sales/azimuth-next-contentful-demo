@@ -27,7 +27,7 @@ export default function SectionContact(props) {
         <section id={sectionId} className={`block contact-block contact-background-color outer`}>
             <div className="block-header inner-small">
                 {title && <h2 className="block-title contact-title-color">{title}</h2>}
-                {subtitle && <p className="block-subtitle">{subtitle}</p>}
+                {subtitle && <p className="contact-text-color">{subtitle}</p>}
             </div>
             <div className="block-content inner-medium">
                 <ReactMarkdown>{content}</ReactMarkdown>
