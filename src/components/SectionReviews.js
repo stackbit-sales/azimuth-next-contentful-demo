@@ -31,9 +31,9 @@ export default function SectionReviews(props) {
             )}
             <style global jsx>{`
                 :root {
-                    --title-color: ${titleColor};
-                    --subtitle-color: ${subtitleColor};
-                    --color-primary: ${colorPrimary};
+                    --reviews-background-color: ${backgroundColor};
+                    --reviews-title-color: ${titleColor};
+                    --reviews-text-color: ${textColor};
                 };
             `}</style>
         </section>
