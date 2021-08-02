@@ -33,9 +33,9 @@ export default function SectionPricing(props) {
             )}
             <style global jsx>{`
                 :root {
-                    --faq-background-color: ${backgroundColor};
-                    --faq-title-color: ${titleColor};
-                    --faq-text-color: ${textColor};
+                    --pricing-background-color: ${backgroundColor};
+                    --pricing-title-color: ${titleColor};
+                    --pricing-text-color: ${textColor};
                 };
             `}</style>
         </section>
