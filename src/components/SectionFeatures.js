@@ -13,7 +13,6 @@ export default function SectionFeatures(props) {
     const subtitle = _.get(section, 'subtitle');
     const features = _.get(section, 'features');
     const featuresBackgroundColor = _.get(section, 'featuresBackgroundColor');
-    console.log(featuresBackgroundColor);
     
     return (
         <section id={sectionId} className={`block features-block features-background-color bg-${background} outer`}>
