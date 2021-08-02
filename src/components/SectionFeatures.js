@@ -51,7 +51,7 @@ function FeatureItem(featureItem) {
     const textColor = _.get(featureItem, 'textColor');
     
     return (
-        <div className="feature-item-background-color">
+        <div className="block-item feature-item-background-color">
             <div className="grid">
                 {image && (
                     <div className="cell block-preview">
