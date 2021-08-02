@@ -124,11 +124,6 @@ export default class Header extends React.Component {
                 </div>
                 <style global jsx>{`
                     :root {
-                        --color-primary: ${colorPrimary};
-                        --color-secondary: ${colorSecondary};
-                        --heading-color: ${headingColor};
-                        --hero-heading-color: ${heroHeadingColor};
-                        --hero-subtitle-color: ${heroSubtitleColor};
                         --nav-bar-background-color: ${navBarBackgroundColor};
                         --nav-bar-text-color: ${navBarTextColor};
                         --nav-bar-text-color-active: ${navBarTextColorActive};
