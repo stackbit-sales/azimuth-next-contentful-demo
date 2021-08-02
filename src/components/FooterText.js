@@ -12,6 +12,7 @@ export default function FooterText(props) {
     const imageAlt = _.get(section, 'image_alt');
     const title = _.get(section, 'title');
     const content = _.get(section, 'content');
+    const textColor = _.get(section, 'textColor');
 
     return (
         <section className="cell widget widget-text">
