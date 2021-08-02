@@ -16,7 +16,7 @@ export default function SectionContent(props) {
     const actions = _.get(section, 'actions');
 
     return (
-        <section id={sectionId} className={`block text-block bg-${background} outer`}>
+        <section id={sectionId} className={`block text-block outer`}>
             <div className="inner">
                 <div className="grid">
                     {image && (
