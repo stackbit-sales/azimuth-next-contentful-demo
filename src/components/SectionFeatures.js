@@ -12,7 +12,7 @@ export default function SectionFeatures(props) {
     const title = _.get(section, 'title');
     const subtitle = _.get(section, 'subtitle');
     const features = _.get(section, 'features');
-    const bgColor = _.get(section, 'bgColor');
+    const backgroundColor = _.get(section, 'backgroundColor');
     
     return (
         <section id={sectionId} className={`block features-block features-background-color bg-${background} outer`}>
@@ -60,7 +60,7 @@ function FeatureItem(featureItem) {
             </div>
             <style global jsx>{`
                     :root {
-                        --features-background-color: ${bgColor};
+                        --features-background-color: ${backgroundColor};
                     };
             `}</style>
         </div>
