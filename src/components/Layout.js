@@ -108,7 +108,6 @@ export default class Body extends React.Component {
                     :root {
                         --color-primary: ${colorPrimary};
                         --color-secondary: ${colorSecondary};
-                        --heading-color: ${headingColor};
                         --hero-subtitle-color: ${heroSubtitleColor};
                     };
                 `}</style>
