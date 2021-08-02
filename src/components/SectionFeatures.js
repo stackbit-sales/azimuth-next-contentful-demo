@@ -23,7 +23,7 @@ export default function SectionFeatures(props) {
                 {subtitle && <p className="features-text-color">{subtitle}</p>}
             </div>
             {features && (
-                <div className="inner feature-item-background-color">
+                <div className="inner">
                     {_.map(features, (feature, index) => (
                         <FeatureItem key={index} {...feature} />
                     ))}
