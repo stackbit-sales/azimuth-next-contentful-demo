@@ -102,7 +102,7 @@ export default class Body extends React.Component {
                 </div>
                 <style jsx global>{`
                     :root {
-                    --color-primary: brown;
+                        --color-primary: brown;
                     };
 
                     var(--main-bg-color)
