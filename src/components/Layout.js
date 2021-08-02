@@ -82,7 +82,6 @@ export default class Body extends React.Component {
         const colorPrimary = _.get(config, 'colorPrimary');
         const colorSecondary = _.get(config, 'colorSecondary');
         const headingColor = _.get(config, 'headingColor');
-        const heroHeadingColor = _.get(config, 'heroHeadingColor');
         const heroSubtitleColor = _.get(config, 'heroSubtitleColor');
         
         return (
