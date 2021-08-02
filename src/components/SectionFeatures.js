@@ -71,13 +71,6 @@ function FeatureItem(featureItem) {
                     )}
                 </div>
             </div>
-            <style global jsx>{`
-                :root {
-                    --feature-item-background-color: ${backgroundColor};
-                    --feature-item-title-color: ${titleColor};
-                    --feature-item-text-color: ${textColor};
-                };
-            `}</style>
         </div>
     );
 }
