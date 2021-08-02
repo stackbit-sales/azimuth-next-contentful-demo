@@ -23,7 +23,7 @@ export default function Footer(props) {
     const backgroundColor = _.get(footer, 'backgroundColor');
 
     return (
-        <footer id="colophon" className="site-footer footer-background-color">
+        <footer id="colophon" className="footer-background-color">
             {!_.isEmpty(footerSections) && (
                 <div className="footer-top outer">
                     <div className="inner">
