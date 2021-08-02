@@ -30,7 +30,7 @@ export default function SectionCta(props) {
             </div>
             <style global jsx>{`
                 :root {
-                    --cta-background-color: ${backgroundColor};
+                    --cta-background-color: ${backgroundColor} !important;
                     --cta-title-color: ${titleColor};
                     --cta-text-color: ${textColor};
                 };
