@@ -19,7 +19,7 @@ export default function FooterForm(props) {
     return (
         <section className="cell widget widget-form">
             {title && <h2 className="footer-form-title-color">{title}</h2>}
-            <p>{content}</p>
+            <ReactMarkdown>{content}</ReactMarkdown>
             <form
                 name={formId}
                 id={formId}
