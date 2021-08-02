@@ -80,7 +80,7 @@ export default class Body extends React.Component {
             return <meta key={metaIdx} {...nameAttr} content={value} />;
         });
         const colorPrimary = _.get(config, 'colorPrimary');
-        const colorSecondary = _.get(config, 'colorSecondary');
+        // const colorSecondary = _.get(config, 'colorSecondary');
 
         return (
             <React.Fragment>
@@ -105,7 +105,7 @@ export default class Body extends React.Component {
                 <style jsx global>{`
                     :root {
                         --color-primary: ${colorPrimary};
-                        --color-secondary: ${colorSecondary};
+                        // --color-secondary: ${colorSecondary};
                     };
                 `}</style>
             </React.Fragment>
