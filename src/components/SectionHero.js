@@ -14,6 +14,7 @@ export default function SectionHero(props) {
     const content = _.get(section, 'content');
     const actions = _.get(section, 'actions');
     const titleColor = _.get(section, 'titleColor');
+    const subtitleColor = _.get(section, 'subtitleColor');
 
     return (
         <section id={sectionId} className={`block hero-block bg-accent outer`}>
@@ -42,6 +43,7 @@ export default function SectionHero(props) {
             <style global jsx>{`
                     :root {
                         --title-color: ${titleColor};
+                        --subtitle-color: ${subtitleColor};
                     };
                 `}</style>
         </section>
