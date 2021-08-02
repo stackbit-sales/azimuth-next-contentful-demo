@@ -39,7 +39,7 @@ function FeatureItem(featureItem) {
     const actions = _.get(featureItem, 'actions');
 
     return (
-        <div className="block-item">
+        <div className="block-item features-background-colo">
             <div className="grid">
                 {image && (
                     <div className="cell block-preview">
