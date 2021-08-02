@@ -44,9 +44,9 @@ export default function SectionContent(props) {
             </div>
             <style global jsx>{`
                 :root {
-                    --posts-background-color: ${backgroundColor};
-                    --posts-title-color: ${titleColor};
-                    --posts-text-color: ${textColor};
+                    --content-background-color: ${backgroundColor};
+                    --content-title-color: ${titleColor};
+                    --content-text-color: ${textColor};
                 };
             `}</style>
         </section>
