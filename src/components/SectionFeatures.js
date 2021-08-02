@@ -52,9 +52,9 @@ function FeatureItem(featureItem) {
     
     return (
         <div className="block-item">
-            <div className="grid feature-item-background-color">
+            <div className="grid">
                 {image && (
-                    <div className="cell block-preview">
+                    <div className="cell block-preview feature-item-background-color">
                         <img src={withPrefix(image)} alt={imageAlt} />
                     </div>
                 )}
