@@ -112,9 +112,6 @@ export default class Body extends React.Component {
                         --heading-color: ${headingColor};
                         --hero-heading-color: ${heroHeadingColor};
                         --hero-subtitle-color: ${heroSubtitleColor};
-                        --nav-bar-background-color: ${navBarBackgroundColor};
-                        --nav-bar-text-color: ${navBarTextColor};
-                        --nav-bar-text-color-active: ${navBarTextColorActive};
                     };
                 `}</style>
             </React.Fragment>
