@@ -81,7 +81,7 @@ export default class Body extends React.Component {
         });
         const colorPrimary = _.get(config, 'colorPrimary');
         const colorSecondary = _.get(config, 'colorSecondary');
-        console.log('secondary', colorSecondary);
+        console.log('secondary', colorPrimary);
 
         return (
             <React.Fragment>
