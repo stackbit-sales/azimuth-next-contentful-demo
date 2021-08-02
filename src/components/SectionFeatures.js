@@ -60,10 +60,7 @@ function FeatureItem(featureItem) {
             </div>
             <style global jsx>{`
                     :root {
-                        --title-color: ${titleColor};
-                        --subtitle-color: ${subtitleColor};
-                        --color-primary: ${colorPrimary};
-                        --color-secondary: ${colorSecondary};
+                        --features-background-color: ${featuresBackgroundColor};
                     };
                 `}</style>
         </div>
