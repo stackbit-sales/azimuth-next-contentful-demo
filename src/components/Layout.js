@@ -101,7 +101,7 @@ export default class Body extends React.Component {
                     <Footer config={config} />
                 </div>
                 <style jsx>{`
-                    
+                    --color-primary:
                 `}</style>
             </React.Fragment>
         );
