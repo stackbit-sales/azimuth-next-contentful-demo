@@ -79,10 +79,10 @@ export default class Body extends React.Component {
             }
             return <meta key={metaIdx} {...nameAttr} content={value} />;
         });
-        const colorSecondary = _.get(config, 'colorSecondary');
         const colorPrimary = _.get(config, 'colorPrimary');
+        const colorSecondary = _.get(config, 'colorSecondary');
         
-        console.log('secondary', colorPrimary);
+        console.log('secondary', colorSecondary);
 
         return (
             <React.Fragment>
