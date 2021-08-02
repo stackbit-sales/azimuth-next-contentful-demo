@@ -79,7 +79,7 @@ export default class Body extends React.Component {
             }
             return <meta key={metaIdx} {...nameAttr} content={value} />;
         });
-        const 
+        const favIcon = _.get(config, 'favicon');
 
         return (
             <React.Fragment>
