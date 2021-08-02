@@ -93,6 +93,9 @@ export default class Header extends React.Component {
         const logoImage = _.get(header, 'logo_img');
         const logoImageAlt = _.get(header, 'logo_img_alt');
         const pageTemplate = _.get(page, 'template');
+        const navBarBackgroundColor = _.get(header, 'navBarBackgroundColor');
+        const navBarTextColor = _.get(header, 'navBarTextColor');
+        const navBarTextColorActive = _.get(header, 'navBarTextColorActive');
 
         return (
             <header id="masthead" className="site-header outer">
