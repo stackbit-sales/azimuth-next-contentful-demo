@@ -21,6 +21,7 @@ export default function Footer(props) {
     const footerContent = _.get(footer, 'content');
     const links = _.get(footer, 'links');
     const backgroundColor = _.get(footer, 'backgroundColor');
+    const textColor = _.get(footer, 'textColor');
 
     return (
         <footer id="colophon" className="site-footer">
