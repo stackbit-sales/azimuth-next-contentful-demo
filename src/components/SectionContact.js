@@ -19,6 +19,9 @@ export default function SectionContact(props) {
     const formHoneypotInputId = formId + '-honeypot';
     const formHoneypotLabelId = formId + '-honeypot-label';
     const formHoneypotName = formId + '-bot-field';
+    const backgroundColor = _.get(section, 'backgroundColor');
+    const titleColor = _.get(section, 'titleColor');
+    const textColor = _.get(section, 'textColor');
 
     return (
         <section id={sectionId} className={`block contact-block bg-${background} outer`}>
