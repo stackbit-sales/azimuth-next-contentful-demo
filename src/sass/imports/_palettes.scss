@@ -6,7 +6,7 @@
 
   .palette-#{$palette-suffix} {
     a:not(.button) {
-      color: $color-primary;
+      color: var(--color-primary);
 
       &:hover {
         color: $gray-600;
@@ -16,36 +16,36 @@
     blockquote,
     .underline:after,
     .card.highlight {
-      border-color: $color-primary;
+      border-color: var(--color-primary);
     }
 
     .button {
-      background: $color-primary;
-      border-color: $color-primary;
+      background: var(--color-primary);
+      border-color: var(--color-primary);
 
       &.secondary {
         background: transparent;
-        color: $color-primary;
+        color: var(--color-primary);
       }
     }
 
     .icon-plus {
-      background: $color-primary;
+      background: var(--color-primary);
     }
 
     .review-text {
       &:before {
-        color: $color-primary;
+        color: var(--color-primary);
       }
     }
 
     .bg-accent {
-      background: $color-primary;
+      background: var(--color-primary);
       background: -webkit-gradient(linear, left top, right top, from($color-primary), to($color-secondary));
       background: linear-gradient(to right, $color-primary, $color-secondary);
 
       .button {
-        color: $color-primary;
+        color: var(--color-primary);
       }
     }
   }
