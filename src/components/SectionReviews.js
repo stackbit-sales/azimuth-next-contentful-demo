@@ -18,7 +18,7 @@ export default function SectionReviews(props) {
         <section id={sectionId} className={`block reviews-block reviews-background-color outer`}>
             <div className="block-header inner-small">
                 {title && <h2 className="block-title reviews-title-color">{title}</h2>}
-                {subtitle && <p className="block-subtitle reviews-text-color">{subtitle}</p>}
+                {subtitle && <p className="reviews-text-color">{subtitle}</p>}
             </div>
             {reviews && (
                 <div className="inner">
