@@ -69,6 +69,7 @@ export default function Footer(props) {
             <style global jsx>{`
                 :root {
                     --footer-background-color: ${backgroundColor};
+                    --footer-text-color: ${textColor};
                 };
             `}</style>
         </footer>
