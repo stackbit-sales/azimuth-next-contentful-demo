@@ -43,13 +43,13 @@ export default function SectionHero(props) {
                 </div>
             </div>
             <style global jsx>{`
-                    :root {
-                        --title-color: ${titleColor};
-                        --subtitle-color: ${subtitleColor};
-                        --color-primary: ${colorPrimary};
-                        --color-secondary: ${colorSecondary};
-                    };
-                `}</style>
+                :root {
+                    --title-color: ${titleColor};
+                    --subtitle-color: ${subtitleColor};
+                    --color-primary: ${colorPrimary};
+                    --color-secondary: ${colorSecondary};
+                };
+            `}</style>
         </section>
     );
 }
