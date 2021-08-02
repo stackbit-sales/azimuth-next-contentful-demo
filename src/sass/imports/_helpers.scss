@@ -21,7 +21,7 @@
   position: relative;
 
   &:after {
-    border-left: 1.5em solid var(--color-primary);
+    border-left: 1.5em solid $color-primary;
     display: block;
     content: "";
     height: 2px;
@@ -73,7 +73,7 @@
   box-sizing: border-box;
 
   &.highlight {
-    border-color: var(--color-primary);
+    border-color: $color-primary;
     border-width: 2px;
   }
 }
