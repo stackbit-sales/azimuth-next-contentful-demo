@@ -22,7 +22,7 @@ export default function Footer(props) {
     const links = _.get(footer, 'links');
 
     return (
-        <footer id="colophon" className="site-footer">
+        <footer id="colophon" className="">
             {!_.isEmpty(footerSections) && (
                 <div className="footer-top outer">
                     <div className="inner">
