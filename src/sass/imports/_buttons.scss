@@ -1,8 +1,8 @@
 .button {
   -ms-flex-align: center;
   align-items: center;
-  background: var(--color-primary);
-  border: 2px solid var(--color-primary);
+  background: $color-primary;
+  border: 2px solid $color-primary;
   border-radius: $border-radius;
   box-sizing: border-box;
   color: #fff;
@@ -37,6 +37,6 @@
 
   &.secondary {
     background: transparent;
-    color: var(--color-primary);
+    color: $color-primary;
   }
 }
