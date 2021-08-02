@@ -81,6 +81,7 @@ export default class Body extends React.Component {
         });
         const colorPrimary = _.get(config, 'colorPrimary');
         const colorSecondary = _.get(config, 'colorSecondary');
+        const headingColor = _.get(config, 'headingColor');
 
         return (
             <React.Fragment>
@@ -105,6 +106,7 @@ export default class Body extends React.Component {
                 <style global jsx>{`
                     :root {
                         --color-primary: ${colorPrimary};
+                        --color-secondary: ${colorSecondary};
                         --color-secondary: ${colorSecondary};
                     };
                 `}</style>
