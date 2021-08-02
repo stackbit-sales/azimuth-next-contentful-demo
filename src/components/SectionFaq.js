@@ -29,7 +29,7 @@ export default class SectionFaq extends React.Component {
         const textColor = _.get(section, 'textColor');
 
         return (
-            <section id={sectionId} className={`block faq-block bg-${background} outer`}>
+            <section id={sectionId} className={`block faq-block faq-background-color outer`}>
                 <div className="inner-small">
                     <div className="block-header">
                         {title && <h2 className="block-title">{title}</h2>}
