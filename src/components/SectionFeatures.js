@@ -31,6 +31,7 @@ export default function SectionFeatures(props) {
             <style global jsx>{`
                 :root {
                     --features-background-color: ${backgroundColor};
+                    --features-text-color: ${textColor};
                 };
             `}</style>
         </section>
