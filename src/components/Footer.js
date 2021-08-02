@@ -48,7 +48,7 @@ export default function Footer(props) {
                 <div className="inner">
                     {!hideNavLinks && !_.isEmpty(navLinks) && (
                         <div className="footer-nav">
-                            <ul className="menu">
+                            <ul className="menu footer-footer-text-color">
                                 {_.map(navLinks, (action, actionIdx) => (
                                     <li key={actionIdx} className="menu-item">
                                         <ActionLink action={action} />
