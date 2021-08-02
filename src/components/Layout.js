@@ -109,6 +109,7 @@ export default class Body extends React.Component {
                         --color-primary: ${colorPrimary};
                         --color-secondary: ${colorSecondary};
                         --heading-color: ${headingColor};
+                        --hero-heading-color: ${heroHeadingColor};
                     };
                 `}</style>
             </React.Fragment>
