@@ -16,7 +16,7 @@ export default function SectionHero(props) {
 
     return (
         <section id={sectionId} className={`block hero-block bg-accent outer red-500`}>
-            <div className="inner">
+            <div className="inner red-500">
                 <div className="grid">
                     {image && (
                         <div className="cell block-preview">
