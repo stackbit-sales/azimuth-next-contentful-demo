@@ -30,9 +30,7 @@ export default function FooterText(props) {
             <ReactMarkdown>{content}</ReactMarkdown>
             <style global jsx>{`
                 :root {
-                    --pricing-background-color: ${backgroundColor};
-                    --pricing-title-color: ${titleColor};
-                    --pricing-text-color: ${textColor};
+                    --footer-text-color: ${textColor};
                 };
             `}</style>
         </section>
