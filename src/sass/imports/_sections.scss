@@ -634,13 +634,13 @@
 }
 
 .feature-item-background-color {
-  background-color: var(--features-item-background-color);
+  background-color: var(--features-item-background-color) !important;
 }
 
 .feature-item-title-color {
-  color: var(--features-item-title-color);
+  color: var(--features-item-title-color) !important;
 }
 
 .feature-item-text-color {
-  color: var(--features-item-text-color);
+  color: var(--features-item-text-color) !important;
 }
