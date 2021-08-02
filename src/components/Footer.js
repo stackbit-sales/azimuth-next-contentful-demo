@@ -57,7 +57,7 @@ export default function Footer(props) {
                             </ul>
                         </div>
                     )}
-                    <div className="site-info">
+                    <div className="site-info footer-footer-text-color">
                         <div dangerouslySetInnerHTML={{ __html: footerContent }} />
                         &nbsp;
                         {_.map(links, (action, actionIdx) => (
