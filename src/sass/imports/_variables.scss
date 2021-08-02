@@ -3,7 +3,7 @@ $font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Co
 
 // Colors
 $color-primary: var(--color-primary) !default;
-$color-secondary: #fff !default;
+$color-secondary: var(--color-secondary) !default;
 
 $gray-100: #f7f9fb !default;
 $gray-200: #ebecf0 !default;
