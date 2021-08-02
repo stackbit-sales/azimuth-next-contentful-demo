@@ -19,7 +19,7 @@ export default function SectionCta(props) {
                 <div className="grid">
                     <div className="cell block-content">
                         {title && <h2 className="block-title cta-title-color">{title}</h2>}
-                        {subtitle && <p className="block-copy">{subtitle}</p>}
+                        {subtitle && <p className="block-copy cta-text-color">{subtitle}</p>}
                     </div>
                     {actions && (
                         <div className="cell block-buttons">
