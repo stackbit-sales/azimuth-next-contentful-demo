@@ -106,9 +106,10 @@ export default class Body extends React.Component {
                     :root {
                         --color-primary: ${colorPrimary};
                     };
+                    
                     :root {
                         --color-secondary: ${colorSecondary};
-                    }
+                    };
                 `}</style>
             </React.Fragment>
         );
