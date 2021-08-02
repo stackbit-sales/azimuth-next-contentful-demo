@@ -19,7 +19,7 @@ export default function SectionFeatures(props) {
     return (
         <section id={sectionId} className={`block features-block features-background-color outer`}>
             <div className="block-header inner-small">
-                {title && <h2 className="block-title features-text-color">{title}</h2>}
+                {title && <h2 className="block-title features-title-color">{title}</h2>}
                 {subtitle && <p className="features-text-color">{subtitle}</p>}
             </div>
             {features && (
