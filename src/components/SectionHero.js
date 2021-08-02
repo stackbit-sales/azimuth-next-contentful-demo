@@ -14,6 +14,8 @@ export default function SectionHero(props) {
     const content = _.get(section, 'content');
     const actions = _.get(section, 'actions');
     const titleColor = _.get(section, 'titleColor');
+    console.log(titleColor);
+    
 
     return (
         <section id={sectionId} className={`block hero-block bg-accent outer`}>
