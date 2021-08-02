@@ -15,7 +15,7 @@ export default function SectionHero(props) {
     const actions = _.get(section, 'actions');
 
     return (
-        <section id={sectionId} className={`block hero-block bg-accent outer red-500`}>
+        <section id={sectionId} className={`block hero-block bg-accent outer`}>
             <div className="inner">
                 <div className="grid">
                     {image && (
