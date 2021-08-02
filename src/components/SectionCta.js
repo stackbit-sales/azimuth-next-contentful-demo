@@ -14,7 +14,7 @@ export default function SectionCta(props) {
     const textColor = _.get(section, 'textColor');
 
     return (
-        <section id={sectionId} className="block cta-block bg-accent outer">
+        <section id={sectionId} className="block cta-block bg-accent outer cta-background-color">
             <div className="inner-large">
                 <div className="grid">
                     <div className="cell block-content">
