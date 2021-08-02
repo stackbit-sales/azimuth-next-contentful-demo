@@ -41,9 +41,7 @@ export default function SectionHero(props) {
             </div>
             <style global jsx>{`
                     :root {
-                        --nav-bar-background-color: ${navBarBackgroundColor};
-                        --nav-bar-text-color: ${navBarTextColor};
-                        --nav-bar-text-color-active: ${navBarTextColorActive};
+                        
                     };
                 `}</style>
         </section>
