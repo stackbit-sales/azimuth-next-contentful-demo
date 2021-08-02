@@ -14,6 +14,9 @@ export default function SectionContent(props) {
     const title = _.get(section, 'title');
     const content = _.get(section, 'content');
     const actions = _.get(section, 'actions');
+    const backgroundColor = _.get(section, 'backgroundColor');
+    const titleColor = _.get(section, 'titleColor');
+    const textColor = _.get(section, 'textColor');
 
     return (
         <section id={sectionId} className={`block text-block outer`}>
