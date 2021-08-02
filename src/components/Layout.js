@@ -102,7 +102,7 @@ export default class Body extends React.Component {
                     </main>
                     <Footer config={config} />
                 </div>
-                <style jsx global>{`
+                <style global jsx>{`
                     :root {
                         --color-primary: ${colorPrimary};
                         --color-secondary: ${colorSecondary};
