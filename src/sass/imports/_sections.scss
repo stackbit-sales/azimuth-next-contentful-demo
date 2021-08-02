@@ -344,7 +344,7 @@
   position: relative;
 
   &:before {
-    color: var(--color-primary);
+    color: $color-primary;
     content: "\201C";
     display: block;
     font-size: 3.5em;
@@ -567,9 +567,9 @@
   }
 
   &.bg-accent {
-    background: var(--color-primary);
-    background: -webkit-gradient(linear, left top, right top, from(var(--color-primary)), to($color-secondary));
-    background: linear-gradient(to right, var(--color-primary), $color-secondary);
+    background: $color-primary;
+    background: -webkit-gradient(linear, left top, right top, from($color-primary), to($color-secondary));
+    background: linear-gradient(to right, $color-primary, $color-secondary);
     color: #fff;
 
     a {
@@ -607,7 +607,7 @@
     .button {
       background: #fff;
       border-color: #fff;
-      color: var(--color-primary);
+      color: $color-primary;
 
       &.secondary {
         background: transparent;
