@@ -14,6 +14,9 @@ export default function SectionPosts(props) {
     const background = _.get(section, 'background', 'gray');
     const title = _.get(section, 'title');
     const subtitle = _.get(section, 'subtitle');
+    const backgroundColor = _.get(section, 'backgroundColor');
+    const titleColor = _.get(section, 'titleColor');
+    const textColor = _.get(section, 'textColor');
 
     return (
         <section id={sectionId} className={`block posts-block bg-${background} outer`}>
