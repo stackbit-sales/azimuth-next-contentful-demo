@@ -24,6 +24,9 @@ export default class SectionFaq extends React.Component {
         const title = _.get(section, 'title');
         const subtitle = _.get(section, 'subtitle');
         const faqItems = _.get(section, 'faq_items');
+        const backgroundColor = _.get(section, 'backgroundColor');
+        const titleColor = _.get(section, 'titleColor');
+        const textColor = _.get(section, 'textColor');
 
         return (
             <section id={sectionId} className={`block faq-block bg-${background} outer`}>
