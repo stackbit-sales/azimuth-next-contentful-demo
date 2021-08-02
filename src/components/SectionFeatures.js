@@ -47,9 +47,6 @@ function FeatureItem(featureItem) {
     const title = _.get(featureItem, 'title');
     const content = _.get(featureItem, 'content');
     const actions = _.get(featureItem, 'actions');
-    let backgroundColor = _.get(featureItem, 'backgroundColor');
-    let titleColor = _.get(featureItem, 'titleColor');
-    let textColor = _.get(featureItem, 'textColor');
     
     return (
         <div className="block-item">
