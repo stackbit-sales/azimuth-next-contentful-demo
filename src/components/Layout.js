@@ -118,6 +118,7 @@ export default class Body extends React.Component {
                         --nav-bar-background-color: ${navBarBackgroundColor};
                         --nav-bar-text-color: ${navBarTextColor};
                         --nav-bar-text-color-active: ${navBarTextColorActive};
+                        --nav-bar-text-color-active: ${navBarTextColorActive};
                     };
                 `}</style>
             </React.Fragment>
