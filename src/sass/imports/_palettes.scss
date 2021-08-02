@@ -1,12 +1,12 @@
 // Color palettes
 @each $palette in map-keys($theme-palettes) {
   $palette-suffix: "#{$palette}";
-  var(--color-primary): map-deep-get($theme-palettes, $palette, "primary");
+  $color-primary: map-deep-get($theme-palettes, $palette, "primary");
   $color-secondary: map-deep-get($theme-palettes, $palette, "secondary");
 
   .palette-#{$palette-suffix} {
     a:not(.button) {
-      color: var(--color-primary);
+      color: $color-primary;
 
       &:hover {
         color: $gray-600;
@@ -16,36 +16,36 @@
     blockquote,
     .underline:after,
     .card.highlight {
-      border-color: var(--color-primary);
+      border-color: $color-primary;
     }
 
     .button {
-      background: var(--color-primary);
-      border-color: var(--color-primary);
+      background: $color-primary;
+      border-color: $color-primary;
 
       &.secondary {
         background: transparent;
-        color: var(--color-primary);
+        color: $color-primary;
       }
     }
 
     .icon-plus {
-      background: var(--color-primary);
+      background: $color-primary;
     }
 
     .review-text {
       &:before {
-        color: var(--color-primary);
+        color: $color-primary;
       }
     }
 
     .bg-accent {
-      background: var(--color-primary);
-      background: -webkit-gradient(linear, left top, right top, from(var(--color-primary)), to($color-secondary));
-      background: linear-gradient(to right, var(--color-primary), $color-secondary);
+      background: $color-primary;
+      background: -webkit-gradient(linear, left top, right top, from($color-primary), to($color-secondary));
+      background: linear-gradient(to right, $color-primary, $color-secondary);
 
       .button {
-        color: var(--color-primary);
+        color: $color-primary;
       }
     }
   }
