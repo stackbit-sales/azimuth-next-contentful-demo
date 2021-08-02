@@ -50,8 +50,8 @@ export default function FooterForm(props) {
             </form>
             <style global jsx>{`
                 :root {
-                    --footer-nav-title-color: ${titleColor};
-                    --footer-nav-text-color: ${textColor};
+                    --footer-form-title-color: ${titleColor};
+                    --footer-form-text-color: ${textColor};
                 };
             `}</style>
         </section>
