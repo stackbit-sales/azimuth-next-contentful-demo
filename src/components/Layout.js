@@ -85,6 +85,7 @@ export default class Body extends React.Component {
         const heroHeadingColor = _.get(config, 'heroHeadingColor');
         const heroSubtitleColor = _.get(config, 'heroSubtitleColor');
         const navBarBackgroundColor = _.get(config, 'navBarBackgroundColor');
+        const navBarTextColor = _.get(config, 'navBarTextColor');
 
         return (
             <React.Fragment>
@@ -114,6 +115,7 @@ export default class Body extends React.Component {
                         --hero-heading-color: ${heroHeadingColor};
                         --hero-subtitle-color: ${heroSubtitleColor};
                         --nav-bar-background-color: ${navBarBackgroundColor};
+                        --nav-bar-text-color: ${navBarTextColor};
                     };
                 `}</style>
             </React.Fragment>
