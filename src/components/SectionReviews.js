@@ -46,7 +46,6 @@ function ReviewItem(review) {
                     {author && <cite className="review-author">{author}</cite>}
                 </footer>
             </div>
-            
         </blockquote>
     );
 }
