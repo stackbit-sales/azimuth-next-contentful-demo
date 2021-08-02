@@ -22,7 +22,7 @@ export default function SectionPosts(props) {
         <section id={sectionId} className={`block posts-block posts-background-color outer`}>
             <div className="block-header inner-small">
                 {title && <h2 className="block-title posts-title-color">{title}</h2>}
-                {subtitle && <p className="block-subtitle posts-text-color">{subtitle}</p>}
+                {subtitle && <p className="posts-text-color">{subtitle}</p>}
             </div>
             <div className="inner">
                 <div className="grid post-feed">
