@@ -24,9 +24,9 @@ export default function SectionContact(props) {
     const textColor = _.get(section, 'textColor');
 
     return (
-        <section id={sectionId} className={`block contact-block bg-${background} outer`}>
+        <section id={sectionId} className={`block contact-block contact-background-color outer`}>
             <div className="block-header inner-small">
-                {title && <h2 className="block-title">{title}</h2>}
+                {title && <h2 className="block-title contact-title-color">{title}</h2>}
                 {subtitle && <p className="block-subtitle">{subtitle}</p>}
             </div>
             <div className="block-content inner-medium">
