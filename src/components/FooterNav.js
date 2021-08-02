@@ -22,6 +22,13 @@ export default function FooterNav(props) {
                     ))}
                 </ul>
             )}
+            <style global jsx>{`
+                :root {
+                    --pricing-background-color: ${backgroundColor};
+                    --pricing-title-color: ${titleColor};
+                    --pricing-text-color: ${textColor};
+                };
+            `}</style>
         </section>
     );
 }
