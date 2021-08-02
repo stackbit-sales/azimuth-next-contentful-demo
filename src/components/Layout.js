@@ -104,8 +104,6 @@ export default class Body extends React.Component {
                     :root {
                         --color-primary: brown;
                     };
-
-                    var(--main-bg-color)
                 `}</style>
             </React.Fragment>
         );
