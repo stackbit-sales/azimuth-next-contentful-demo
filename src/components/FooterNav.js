@@ -24,9 +24,8 @@ export default function FooterNav(props) {
             )}
             <style global jsx>{`
                 :root {
-                    --pricing-background-color: ${backgroundColor};
-                    --pricing-title-color: ${titleColor};
-                    --pricing-text-color: ${textColor};
+                    --footer-nav-title-color: ${titleColor};
+                    --footer-nav-text-color: ${textColor};
                 };
             `}</style>
         </section>
