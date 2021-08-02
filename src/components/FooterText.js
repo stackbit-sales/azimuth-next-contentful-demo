@@ -28,6 +28,13 @@ export default function FooterText(props) {
                 ))}
             {title && <h2 className="widget-title">{title}</h2>}
             <ReactMarkdown>{content}</ReactMarkdown>
+            <style global jsx>{`
+                :root {
+                    --pricing-background-color: ${backgroundColor};
+                    --pricing-title-color: ${titleColor};
+                    --pricing-text-color: ${textColor};
+                };
+            `}</style>
         </section>
     );
 }
