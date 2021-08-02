@@ -29,6 +29,13 @@ export default function SectionReviews(props) {
                     </div>
                 </div>
             )}
+            <style global jsx>{`
+                :root {
+                    --title-color: ${titleColor};
+                    --subtitle-color: ${subtitleColor};
+                    --color-primary: ${colorPrimary};
+                };
+            `}</style>
         </section>
     );
 }
