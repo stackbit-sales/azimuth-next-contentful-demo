@@ -48,6 +48,12 @@ export default function FooterForm(props) {
                     </div>
                 )}
             </form>
+            <style global jsx>{`
+                :root {
+                    --footer-nav-title-color: ${titleColor};
+                    --footer-nav-text-color: ${textColor};
+                };
+            `}</style>
         </section>
     );
 }
