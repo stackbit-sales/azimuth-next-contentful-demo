@@ -10,7 +10,6 @@ export default function SectionReviews(props) {
     const title = _.get(section, 'title');
     const subtitle = _.get(section, 'subtitle');
     const reviews = _.get(section, 'reviews');
-    const backgroundColor = _.get(section, 'backgroundColor');
 
     return (
         <section id={sectionId} className={`block reviews-block bg-${background} outer`}>
