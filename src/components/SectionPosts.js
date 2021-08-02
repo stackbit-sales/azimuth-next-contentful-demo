@@ -19,10 +19,10 @@ export default function SectionPosts(props) {
     const textColor = _.get(section, 'textColor');
 
     return (
-        <section id={sectionId} className={`block posts-block bg-${background} outer`}>
+        <section id={sectionId} className={`block posts-block posts-background-color outer`}>
             <div className="block-header inner-small">
-                {title && <h2 className="block-title">{title}</h2>}
-                {subtitle && <p className="block-subtitle">{subtitle}</p>}
+                {title && <h2 className="block-title posts-title-color">{title}</h2>}
+                {subtitle && <p className="block-subtitle posts-text-color">{subtitle}</p>}
             </div>
             <div className="inner">
                 <div className="grid post-feed">
