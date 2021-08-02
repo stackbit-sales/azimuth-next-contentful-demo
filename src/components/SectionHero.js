@@ -41,3 +41,4 @@ export default function SectionHero(props) {
         </section>
     );
 }
+
