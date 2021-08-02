@@ -57,11 +57,6 @@ function FeatureItem(featureItem) {
                     )}
                 </div>
             </div>
-            <style global jsx>{`
-                :root {
-                  
-                };
-            `}</style>
         </div>
     );
 }
