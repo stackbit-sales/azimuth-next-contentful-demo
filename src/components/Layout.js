@@ -100,6 +100,9 @@ export default class Body extends React.Component {
                     </main>
                     <Footer config={config} />
                 </div>
+                <style jsx>{`
+                    
+                `}</style>
             </React.Fragment>
         );
     }
