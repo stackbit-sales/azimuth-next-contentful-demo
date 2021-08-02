@@ -14,7 +14,7 @@ export default function FooterNav(props) {
         <section className="cell widget widget-nav">
             {title && <h2 className="footer-nav-title-color">{title}</h2>}
             {navLinks && (
-                <ul className="menu">
+                <ul className="menu footer-nav-text-color">
                     {_.map(navLinks, (action, actionIdx) => (
                         <li key={actionIdx} className="menu-item">
                             <Action action={action} />
