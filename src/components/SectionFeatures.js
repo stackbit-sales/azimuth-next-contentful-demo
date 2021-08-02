@@ -23,7 +23,7 @@ export default function SectionFeatures(props) {
                 {subtitle && <p className="features-text-color">{subtitle}</p>}
             </div>
             {features && (
-                <div className="inner">
+                <div className="inner feature-item-background-color">
                     {_.map(features, (feature, index) => (
                         <FeatureItem key={index} {...feature} />
                     ))}
@@ -51,7 +51,7 @@ function FeatureItem(featureItem) {
     let textColor = _.get(featureItem, 'textColor');
     
     return (
-        <div className="block-item feature-item-background-color">
+        <div className="block-item">
             <div className="grid">
                 {image && (
                     <div className="cell block-preview">
