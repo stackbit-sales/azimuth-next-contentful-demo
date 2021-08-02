@@ -15,7 +15,7 @@ export default function FooterText(props) {
     const textColor = _.get(section, 'textColor');
 
     return (
-        <section className="cell widget widget-text">
+        <section className="cell widget footer-text-color">
             {image &&
                 (imageUrl ? (
                     <Link className="widget-image" href={withPrefix(imageUrl)}>
