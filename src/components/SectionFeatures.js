@@ -61,7 +61,7 @@ function FeatureItem(featureItem) {
                 )}
                 <div className="cell block-content">
                     <h3 className="block-title underline features-title-color">{title}</h3>
-                    <div className="block-copy feature-item-text-color">
+                    <div className="block-copy features-text-color">
                         <ReactMarkdown>{content}</ReactMarkdown>
                     </div>
                     {actions && (
