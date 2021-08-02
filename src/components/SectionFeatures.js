@@ -51,10 +51,10 @@ function FeatureItem(featureItem) {
     const textColor = _.get(featureItem, 'textColor');
     
     return (
-        <div className="block-item">
+        <div className="block-item feature-item-background-color">
             <div className="grid">
                 {image && (
-                    <div className="cell block-preview feature-item-background-color">
+                    <div className="cell block-preview">
                         <img src={withPrefix(image)} alt={imageAlt} />
                     </div>
                 )}
