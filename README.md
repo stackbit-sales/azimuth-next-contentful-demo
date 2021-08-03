@@ -1,16 +1,14 @@
-# ✨ Azimuth Next.js Contentful Theme ✨
+# ✨ Azimuth Next.js Contentful Demo Theme ✨
 
 This is Stackbit's "Azimuth" theme built with [Next.js](https://nextjs.org/) and powered by [Contentful](https://www.contentful.com).
+
+It's built specifically for Solutions Engineers to customize the theme using fields in the content model. **It is NOT optimized for production.**
 
 Click the button below to create a new website from this theme using Stackbit:
 
 <p align="center">
-  <a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-nextjs-contentful&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg"/></a>
+  <a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-sales/azimuth-next-contentful-demo&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg"/></a>
 </p>
-
-[Live Site Demo](https://themes.stackbit.com/demos/azimuth/)
-
-<img src="https://themes.stackbit.com/images/azimuth-demo-1024x768.png" width="600">
 
 You can use this theme to create a static website hosted by a serverless deployment platform such as [Netlify](https://www.netlify.com) and content stored in [Contentful](https://www.contentful.com).
 
@@ -24,7 +22,7 @@ When deploying the website, [Sourcebit](https://github.com/stackbithq/sourcebit)
 
 ## Quick Start 🏎
 
-[Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-nextjs-contentful&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
+[Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-sales/azimuth-next-contentful-demo&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
 
 Stackbit will execute the following steps for you
 
