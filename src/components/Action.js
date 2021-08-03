@@ -32,10 +32,10 @@ export default function Action(props) {
             href={withPrefix(url)}
             {...attrs}
             // className="new-button"
-            className={classNames({
-                button: actionStyle === 'primary' || actionStyle === 'secondary',
-                secondary: actionStyle === 'secondary',
-            })}
+            // className={classNames({
+            //     button: actionStyle === 'primary' || actionStyle === 'secondary',
+            //     secondary: actionStyle === 'secondary',
+            // })}
              style={{backgroundColor: backgroundColor, borderColor: borderColor, borderRadius: borderRadius}}
         >
             <span className={classNames({ 'order-first': actionIconPos === 'right' })} style={{textColor: textColor}}>{label}</span>
