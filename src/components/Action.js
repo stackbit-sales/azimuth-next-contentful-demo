@@ -38,7 +38,7 @@ export default function Action(props) {
             // })}
              style={{backgroundColor: backgroundColor, borderColor: borderColor, borderRadius: borderRadius}}
         >
-            <span className={classNames({ 'order-first' })} style={{textColor: textColor}}>{label}</span>
+            <span className="" style={{textColor: textColor}}>{label}</span>
         </Link>
     );
 }
