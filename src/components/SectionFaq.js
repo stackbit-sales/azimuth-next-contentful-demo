@@ -60,7 +60,7 @@ export default class SectionFaq extends React.Component {
 function FaqItem(faqItem) {
     const question = _.get(faqItem, 'question');
     const answer = _.get(faqItem, 'answer');
-    const titleColor = _.get(section, 'titleColor');
+    const titleColor = _.get(faqItem, 'titleColor');
     const iconColor = _.get(faqItem, 'iconColor');
     console.log(faqItem);
 
