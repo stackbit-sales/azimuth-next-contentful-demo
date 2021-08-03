@@ -44,8 +44,6 @@ export default function SectionHero(props) {
                 :root {
                     --title-color: ${titleColor};
                     --subtitle-color: ${subtitleColor};
-                    --color-primary: ${colorPrimary};
-                    --color-secondary: ${colorSecondary};
                 };
             `}</style>
         </section>
