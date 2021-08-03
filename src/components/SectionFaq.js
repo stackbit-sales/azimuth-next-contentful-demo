@@ -38,7 +38,7 @@ export default class SectionFaq extends React.Component {
                         {subtitle && <p className="faq-text-color">{subtitle}</p>}
                     </div>
                     {faqItems && (
-                        <div className="faq-card-background-color" ref={this.handorgelRef}>
+                        <div className="faq-accordion handorgel faq-card-background-color" ref={this.handorgelRef}>
                             {_.map(faqItems, (faqItem, index) => (
                                 <FaqItem key={index} {...faqItem} />
                             ))}
