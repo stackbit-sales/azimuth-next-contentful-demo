@@ -104,7 +104,7 @@ export default class Body extends React.Component {
                 </div>
                 <style global jsx>{`
                     :root {
-                        --hero-subtitle-color: ${heroSubtitleColor};
+                        
                     };
                 `}</style>
             </React.Fragment>
