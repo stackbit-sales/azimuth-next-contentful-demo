@@ -17,8 +17,8 @@ export default function FooterForm(props) {
     const textColor = _.get(section, 'textColor');
     const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
     const buttonBorderColor = _.get(section, 'buttonBorderColor');
-    const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
-    const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
+    const buttonTextColor = _.get(section, 'buttonTextColor');
+    const buttonBorderRadius = _.get(section, 'buttonBorderRadius');
 
     return (
         <section className="cell widget widget-form">
