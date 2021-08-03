@@ -513,7 +513,6 @@
 
 .handorgel__content {
   box-sizing: border-box;
-  border: 1px;
   display: none;
   overflow: hidden;
   height: 0;
@@ -523,6 +522,7 @@
 
 .handorgel__content-inner {
   background: #fff;
+  border: 1px;
   border-top: 0;
   border-radius: 0 0 $border-radius $border-radius;
   box-shadow: $box-shadow;
