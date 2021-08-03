@@ -26,7 +26,8 @@ export default function Action(props) {
     const borderColor = _.get(action, 'borderColor');
     const textColor = _.get(action, 'textColor');
     const borderRadius = _.get(action, 'borderRadius');
-
+    console.log(textColor);
+    
     return (
         <Link
             href={withPrefix(url)}
