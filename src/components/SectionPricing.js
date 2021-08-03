@@ -59,7 +59,7 @@ function PricingPlan(plan) {
                 <div className="plan-header">
                     {title && <h3 className="plan-title" style={{color: titleColor}}>{title}</h3>}
                     {subtitle && <div className="plan-subtitle" style={{color: textColor}}>{subtitle}</div>}
-                    {price && <div className="plan-price">{price}</div>}
+                    {price && <div className="plan-price" style={{color: titleColor}}>{price}</div>}
                 </div>
                 {details && (
                     <div className="plan-content">
