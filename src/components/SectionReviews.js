@@ -45,6 +45,9 @@ function ReviewItem(review) {
     const avatar = _.get(review, 'avatar');
     const avatarAlt = _.get(review, 'avatar_alt');
     const author = _.get(review, 'author');
+    const backgroundColor = _.get(review, 'backgroundColor');
+    const titleColor = _.get(review, 'titleColor');
+    const textColor = _.get(review, 'textColor');
 
     return (
         <blockquote className="cell review">
