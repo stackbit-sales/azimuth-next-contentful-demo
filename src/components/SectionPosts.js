@@ -50,6 +50,8 @@ function RecentPost(post) {
     const excerpt = _.get(post, 'excerpt');
     const backgroundColor = _.get(post, 'backgroundColor');
     const titleColor = _.get(post, 'titleColor');
+    const textColor = _.get(post, 'textColor');
+    const subTextColor = _.get(post, 'subTextColor');
     console.log('post', post);
     console.log('titleColor', post.titleColor);
     
