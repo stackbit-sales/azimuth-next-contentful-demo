@@ -37,7 +37,7 @@ module.exports = {
                         'backgroundColor',
                         'titleColor',
                         'textColor',
-                        ''
+                        'footerTextColor'
                     ]));
                     return _.map(pages, (page) => {
                         const pageType = _.get(page, '__metadata.modelName');
