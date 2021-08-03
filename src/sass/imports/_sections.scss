@@ -603,16 +603,16 @@
       border-color: currentColor;
     }
 
-    // .button {
-    //   background: #fff;
-    //   border-color: #fff;
-    //   color: var(--color-primary);
+    .button {
+      background: #fff;
+      border-color: #fff;
+      color: var(--color-primary);
 
-    //   &.secondary {
-    //     background: transparent;
-    //     color: #fff;
-    //   }
-    // }
+      &.secondary {
+        background: transparent;
+        color: #fff;
+      }
+    }
   }
 }
 
