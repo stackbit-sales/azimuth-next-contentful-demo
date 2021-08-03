@@ -28,7 +28,6 @@ export default class SectionFaq extends React.Component {
         const titleColor = _.get(section, 'titleColor');
         const textColor = _.get(section, 'textColor');
         const faqBackgroundColor = _.get(section, 'faqBackgroundColor');
-        const faqTitleColor = _.get(section, 'faqTitleColor');
 
         return (
             <section id={sectionId} className={`block faq-block faq-background-color outer`}>
@@ -61,6 +60,7 @@ export default class SectionFaq extends React.Component {
 function FaqItem(faqItem) {
     const question = _.get(faqItem, 'question');
     const answer = _.get(faqItem, 'answer');
+    const titleColor = _.get(section, 'titleColor');
     const iconColor = _.get(faqItem, 'iconColor');
     console.log(faqItem);
 
