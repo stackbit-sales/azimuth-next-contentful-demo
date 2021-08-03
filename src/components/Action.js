@@ -31,7 +31,7 @@ export default function Action(props) {
         <Link
             href={withPrefix(url)}
             {...attrs}
-            // className="new-button"
+            className="new-button"
             // className={classNames({
             //     button: actionStyle === 'primary' || actionStyle === 'secondary',
             //     secondary: actionStyle === 'secondary',
