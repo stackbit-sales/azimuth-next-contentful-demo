@@ -62,7 +62,7 @@ function RecentPost(post) {
                 )}
                 <div className="post-body">
                     <header className="post-header">
-                        <h3 className="post-title">
+                        <h3 className="post-title" style={{backgroundColor: backgroundColor}}>
                             <Link href={postUrl}>{title}</Link>
                         </h3>
                     </header>
