@@ -30,10 +30,8 @@ export default function Action(props) {
             className={classNames({
                 button: actionStyle === 'primary' || actionStyle === 'secondary',
                 secondary: actionStyle === 'secondary',
-                'has-icon': !!actionIcon
             })}
         >
-            {actionIcon && <Icon icon={actionIcon} />}
             <span className={classNames({ 'order-first': actionIconPos === 'right' })}>{label}</span>
         </Link>
     );
