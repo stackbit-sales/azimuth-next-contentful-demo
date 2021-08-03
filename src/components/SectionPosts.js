@@ -48,7 +48,7 @@ function RecentPost(post) {
     const thumbImage = _.get(post, 'thumb_image');
     const thumbImageAlt = _.get(post, 'thumb_image_alt');
     const excerpt = _.get(post, 'excerpt');
-    const backgroundColor = _.get(post, 'backgroundColor');
+    let backgroundColor = _.get(post, 'backgroundColor');
     console.log('post', backgroundColor);
     
     return (
