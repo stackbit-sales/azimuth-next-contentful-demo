@@ -17,6 +17,7 @@ export default function SectionHero(props) {
     const subtitleColor = _.get(section, 'subtitleColor');
     const backgroundColorLeft = _.get(section, 'backgroundColorLeft');
     const backgroundColorRight = _.get(section, 'backgroundColorRight');
+    const swapOrder = _.get(section, 'swapOrder');
 
     return (
         <section id={sectionId} className={`block hero-block bg-accent outer`}>
