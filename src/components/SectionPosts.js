@@ -51,7 +51,7 @@ function RecentPost(post) {
     const backgroundColor = _.get(post, 'backgroundColor');
     const titleColor = _.get(post, 'titleColor');
     console.log('post', post);
-    console.log('titleColor', titleColor);
+    console.log('titleColor', post.titleColor);
     
     return (
         <article className="cell post">
