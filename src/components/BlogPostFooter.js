@@ -10,6 +10,7 @@ export default function BlogPostFooter(props) {
     const formattedDate = dateType === 'short' ? moment(date).strftime('%B %d, %Y') : moment(date).strftime('%A, %B %e, %Y');
     const author = _.get(post, 'author');
     const authorName = author ? _.trim(`${author.first_name} ${author.last_name}`) : null;
+    const footerTextColor = _.get(post, 'footerTextColor');
 
     return (
         <footer className="post-meta">
