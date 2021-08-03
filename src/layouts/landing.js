@@ -15,7 +15,6 @@ const sectionsMap = {
     section_reviews: dynamic(() => import('../components/SectionReviews')),
     section_contact: dynamic(() => import('../components/SectionContact'))
 };
-console.log('sectionsMap', sectionsMap);
 
 export default function Landing(props) {
     const config = _.get(props, 'config');
