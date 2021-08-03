@@ -49,7 +49,8 @@ function RecentPost(post) {
     const thumbImageAlt = _.get(post, 'thumb_image_alt');
     const excerpt = _.get(post, 'excerpt');
     const backgroundColor = _.get(post, 'backgroundColor');
-
+    console.log('post', backgroundColor);
+    
     return (
         <article className="cell post">
             <div className="card" style={{backgroundColor: backgroundColor}}>
