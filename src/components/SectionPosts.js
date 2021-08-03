@@ -52,7 +52,7 @@ function RecentPost(post) {
 
     return (
         <article className="cell post">
-            <div className="card">
+            <div className="card" style={{backgroundColor: backgroundColor}}>
                 {thumbImage && (
                     <Link className="post-thumbnail" href={postUrl}>
                         <img src={withPrefix(thumbImage)} alt={thumbImageAlt} />
