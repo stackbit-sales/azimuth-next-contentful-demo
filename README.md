@@ -2,7 +2,7 @@
 
 This is Stackbit's "Azimuth" theme built with [Next.js](https://nextjs.org/) and powered by [Contentful](https://www.contentful.com).
 
-It's built specifically for Solutions Engineers to customize the theme using fields in the content model. **It is NOT optimized for production.**
+**The theme is NOT optimized for production.** The theme is built specifically for Solutions Engineers to customize the theme using fields in the content model.
 
 Click the button below to create a new website from this theme using Stackbit:
 
