@@ -62,7 +62,8 @@ function FaqItem(faqItem) {
     const backgroundColor = _.get(faqItem, 'backgroundColor');
     const titleColor = _.get(faqItem, 'titleColor');
     const iconColor = _.get(faqItem, 'iconColor');
-
+    console.log('faqItem', titleColor);
+    
     return (
         <React.Fragment>
             <h3 className="faq-accordion-header handorgel__header" style={{backgroundColor: backgroundColor}}>
