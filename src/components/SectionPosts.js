@@ -9,9 +9,8 @@ import getPostUrl from '../utils/getPostUrl';
 export default function SectionPosts(props) {
     const section = _.get(props, 'section');
     const posts = _.orderBy(_.get(props, 'posts', []), 'date', 'desc');
+    console.log('top', posts);
     const recentPosts = posts.slice(0, 3);
-    console.log('recentPosts', recentPosts);
-    
     const sectionId = _.get(section, 'section_id');
     const background = _.get(section, 'background', 'gray');
     const title = _.get(section, 'title');
