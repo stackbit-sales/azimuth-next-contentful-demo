@@ -62,7 +62,7 @@ function PricingPlan(plan) {
                     {price && <div className="plan-price" style={{color: titleColor}}>{price}</div>}
                 </div>
                 {details && (
-                    <div className="plan-content">
+                    <div className="plan-content" style={{color: textColor}}>
                         <ReactMarkdown>{details}</ReactMarkdown>
                     </div>
                 )}
