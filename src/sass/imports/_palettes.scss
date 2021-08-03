@@ -19,15 +19,15 @@
       border-color: var(--color-primary);
     }
 
-    // .button {
-    //   background: var(--color-primary);
-    //   border-color: var(--color-primary);
+    .button {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
       
-    //   &.secondary {
-    //     background: transparent;
-    //     color: var(--color-primary);
-    //   }
-    // }
+      &.secondary {
+        background: transparent;
+        color: var(--color-primary);
+      }
+    }
 
     .icon-plus {
       background: var(--color-primary);
@@ -44,9 +44,9 @@
       background: -webkit-gradient(linear, left top, right top, from(var(--background-color-left)), to(var(--background-color-right)));
       background: linear-gradient(to right, var(--background-color-left), var(--background-color-right));
 
-    //   .button {
-    //     color: var(--color-primary);
-    //   }
+      .button {
+        color: var(--color-primary);
+      }
     }
   }
 }
