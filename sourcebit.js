@@ -37,7 +37,7 @@ module.exports = {
                         'backgroundColor',
                         'titleColor',
                         'textColor',
-                        'footerTextColor'
+                        'footerTextColor',
                     ]));
                     console.log(posts);
                     
