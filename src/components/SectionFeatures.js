@@ -50,7 +50,7 @@ function FeatureItem(featureItem) {
     let backgroundColor = _.get(featureItem, 'backgroundColor');
     
     return (
-        <div className="block-item feature-item-background-color" style={backgroundColor: backgroundColor}>
+        <div className="block-item feature-item-background-color" style={{backgroundColor: backgroundColor}}>
             <div className="grid">
                 {image && (
                     <div className="cell block-preview">
