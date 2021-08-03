@@ -49,7 +49,7 @@ function RecentPost(post) {
     const thumbImageAlt = _.get(post, 'thumb_image_alt');
     const excerpt = _.get(post, 'excerpt');
     const backgroundColor = _.get(post, 'backgroundColor');
-    const textColor = _.get(post, 'textColor');
+    const titleColor = _.get(post, 'titleColor');
     console.log('post', backgroundColor);
     
     return (
@@ -62,7 +62,7 @@ function RecentPost(post) {
                 )}
                 <div className="post-body">
                     <header className="post-header">
-                        <h3 className="post-title" style={{color: textColor}}>
+                        <h3 className="post-title" style={{color: titleColor}}>
                             <Link href={postUrl}>{title}</Link>
                         </h3>
                     </header>
