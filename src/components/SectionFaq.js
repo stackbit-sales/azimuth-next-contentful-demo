@@ -30,7 +30,7 @@ export default class SectionFaq extends React.Component {
         
         
         return (
-            <section id={sectionId} className={`block faq-block faq-background-color outer`}>
+            <section id={sectionId} className={`block faq-block faq-background-color`}>
                 <div className="inner-small">
                     <div className="block-header">
                         {title && <h2 className="block-title faq-title-color">{title}</h2>}
