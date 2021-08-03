@@ -21,7 +21,7 @@ export default function SectionHero(props) {
     return (
         <section id={sectionId} className={`block hero-block bg-accent outer`}>
             <div className="inner">
-                <div className="grid">
+                <div className="grid order-container">
                     {image && (
                         <div className="cell block-preview order-image">
                             <img src={withPrefix(image)} alt={imageAlt} />
