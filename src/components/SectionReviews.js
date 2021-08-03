@@ -55,7 +55,7 @@ function ReviewItem(review) {
                 <p className="review-text" style={{textColor: textColor}}>{content}</p>
                 <footer className="review-footer">
                     {avatar && <img className="review-avatar" src={withPrefix(avatar)} alt={avatarAlt} />}
-                    {author && <cite className="review-author">{author}</cite>}
+                    {author && <cite className="review-author" style={{backgroundColor: backgroundColor}}>{author}</cite>}
                 </footer>
             </div>
         </blockquote>
