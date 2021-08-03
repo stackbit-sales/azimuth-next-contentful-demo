@@ -39,6 +39,8 @@ module.exports = {
                         'textColor',
                         'footerTextColor'
                     ]));
+                    console.log(posts);
+                    
                     return _.map(pages, (page) => {
                         const pageType = _.get(page, '__metadata.modelName');
                         const isBlogPage = pageType === 'post';
