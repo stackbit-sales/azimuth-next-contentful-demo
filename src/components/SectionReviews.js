@@ -52,7 +52,7 @@ function ReviewItem(review) {
     return (
         <blockquote className="cell review">
             <div className="card" style={{backgroundColor: backgroundColor}}>
-                <p className="review-text">{content}</p>
+                <p className="review-text" style={{backgroundColor: backgroundColor}}>{content}</p>
                 <footer className="review-footer">
                     {avatar && <img className="review-avatar" src={withPrefix(avatar)} alt={avatarAlt} />}
                     {author && <cite className="review-author">{author}</cite>}
