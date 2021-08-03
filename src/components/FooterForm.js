@@ -59,6 +59,9 @@ export default function FooterForm(props) {
                     --footer-form-title-color: ${titleColor};
                     --footer-form-text-color: ${textColor};
                     --submit-button-background-color: ${buttonBackgroundColor};
+                    --submit-button-background-color: ${buttonBackgroundColor};
+                    --submit-button-background-color: ${buttonBackgroundColor};
+                    --submit-button-background-color: ${buttonBackgroundColor};
                 };
             `}</style>
         </section>
