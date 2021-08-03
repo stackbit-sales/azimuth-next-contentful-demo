@@ -49,7 +49,7 @@ export default function SectionHero(props) {
                     --subtitle-color: ${subtitleColor};
                     --background-color-left: ${backgroundColorLeft};
                     --background-color-right: ${backgroundColorRight};
-                    --background-color-right: ${backgroundColorRight};
+                    --swap-order: ${swapOrder};
                 };
             `}</style>
         </section>
