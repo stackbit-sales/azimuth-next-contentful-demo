@@ -22,6 +22,9 @@ export default function Action(props) {
     if (newWindow || noFollow) {
         attrs.rel = [(newWindow ? 'noopener' : '') + (noFollow ? 'nofollow' : '')].join(' ');
     }
+    const backgroundColor = _.get(action, 'backgroundColor');
+    const borderColor = _.get(action, 'borderColor');
+    const textColor = _.get(action, 'textColor');
     const borderRadius = _.get(action, 'borderRadius');
 
     return (
