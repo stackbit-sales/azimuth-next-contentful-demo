@@ -23,7 +23,7 @@ export default function SectionHero(props) {
             <div className="inner">
                 <div className="grid">
                     {image && (
-                        <div className="cell block-preview">
+                        <div className="cell block-preview order-image">
                             <img src={withPrefix(image)} alt={imageAlt} />
                         </div>
                     )}
