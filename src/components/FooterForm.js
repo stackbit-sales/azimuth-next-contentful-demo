@@ -61,7 +61,7 @@ export default function FooterForm(props) {
                     --submit-button-background-color: ${buttonBackgroundColor};
                     --submit-button-border-color: ${buttonBorderColor};
                     --submit-button-text-color: ${buttonTextColor};
-                    --submit-button-background-color: ${buttonBackgroundColor};
+                    --submit-button-border-radius: ${buttonBorderRadius};
                 };
             `}</style>
         </section>
