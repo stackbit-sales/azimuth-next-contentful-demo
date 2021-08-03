@@ -17,6 +17,8 @@ export default function SectionPosts(props) {
     const backgroundColor = _.get(section, 'backgroundColor');
     const titleColor = _.get(section, 'titleColor');
     const textColor = _.get(section, 'textColor');
+    console.log('posts:', posts);
+    
 
     return (
         <section id={sectionId} className={`block posts-block posts-background-color outer`}>
