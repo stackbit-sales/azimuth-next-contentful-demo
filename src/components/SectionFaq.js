@@ -50,6 +50,7 @@ export default class SectionFaq extends React.Component {
                         --faq-background-color: ${backgroundColor};
                         --faq-title-color: ${titleColor};
                         --faq-text-color: ${textColor};
+                        --faq-card-background-color: ${faqBackgroundColor};
                     };
                 `}</style>
             </section>
