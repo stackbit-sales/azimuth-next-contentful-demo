@@ -15,6 +15,8 @@ export default function SectionHero(props) {
     const actions = _.get(section, 'actions');
     const titleColor = _.get(section, 'titleColor');
     const subtitleColor = _.get(section, 'subtitleColor');
+    const backgroundColorLeft = _.get(section, 'backgroundColorLeft');
+    const backgroundColorRight = _.get(section, 'backgroundColorRight');
 
     return (
         <section id={sectionId} className={`block hero-block bg-accent outer`}>
@@ -44,6 +46,8 @@ export default function SectionHero(props) {
                 :root {
                     --title-color: ${titleColor};
                     --subtitle-color: ${subtitleColor};
+                    --background-color-left: ${backgroundColorLeft};
+                    --background-color-right: ${backgroundColorRight};
                 };
             `}</style>
         </section>
