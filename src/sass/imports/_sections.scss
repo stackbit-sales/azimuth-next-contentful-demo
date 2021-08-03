@@ -761,13 +761,13 @@
 }
 
 .order-image {
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    box-ordinal-group: 2;
-}
-
-.order-content {
     -webkit-box-ordinal-group: 1;
     -moz-box-ordinal-group: 1;
     box-ordinal-group: 1;
+}
+
+.order-content {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
 }
