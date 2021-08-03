@@ -66,7 +66,7 @@ function FaqItem(faqItem) {
 
     return (
         <React.Fragment>
-            <h3 className="faq-accordion-header handorgel__header">
+            <h3 className="faq-accordion-header handorgel__header" style={{color: textColor}}>
                 <button className="handorgel__trigger">
                     <span>{question}</span>
                     <span className="handorgel__icon icon-plus" />
