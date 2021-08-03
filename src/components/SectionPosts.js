@@ -13,7 +13,6 @@ export default function SectionPosts(props) {
     const posts = _.orderBy(_.get(props, 'posts', []), 'date', 'desc');
     const recentPosts = posts.slice(0, 3);
     const sectionId = _.get(section, 'section_id');
-    const background = _.get(section, 'background', 'gray');
     const title = _.get(section, 'title');
     const subtitle = _.get(section, 'subtitle');
     const backgroundColor = _.get(section, 'backgroundColor');
