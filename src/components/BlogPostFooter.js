@@ -11,7 +11,6 @@ export default function BlogPostFooter(props) {
     const author = _.get(post, 'author');
     const authorName = author ? _.trim(`${author.first_name} ${author.last_name}`) : null;
     const footerTextColor = _.get(post, 'footerTextColor');
-    console.log(footerTextColor);
     
     return (
         <footer className="post-meta" style={{color: footerTextColor}}>
