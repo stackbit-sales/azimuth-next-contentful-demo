@@ -1,7 +1,9 @@
 .button {
   -ms-flex-align: center;
   align-items: center;
- 
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: $border-radius;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
