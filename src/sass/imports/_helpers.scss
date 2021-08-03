@@ -39,6 +39,8 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
   flex-wrap: wrap;
   margin-left: math.div(-$grid-gap, 2);
   margin-right: math.div(-$grid-gap, 2);
