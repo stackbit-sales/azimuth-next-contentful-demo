@@ -72,7 +72,7 @@ function FaqItem(faqItem) {
                     <span className="handorgel__icon icon-plus" style={{color: iconColor, backgroundColor: iconBackgroundColor}} />
                 </button>
             </h3>
-            <div className="faq-accordion-content handorgel__content">
+            <div className="faq-accordion-content handorgel__content" style={{backgroundColor: backgroundColor}}>
                 <div className="handorgel__content-inner">
                     <ReactMarkdown>{answer}</ReactMarkdown>
                 </div>
