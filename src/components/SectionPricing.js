@@ -49,6 +49,7 @@ function PricingPlan(plan) {
     const price = _.get(plan, 'price');
     const details = _.get(plan, 'details');
     const actions = _.get(plan, 'actions');
+    const backgroundColor = _.get(plan, 'backgroundColor');
 
     return (
         <div className="cell plan">
