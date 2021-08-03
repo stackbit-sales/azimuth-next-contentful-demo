@@ -33,7 +33,11 @@ module.exports = {
                         'excerpt',
                         'date',
                         'author',
-                        'slug'
+                        'slug',
+                        'backgroundColor',
+                        'titleColor',
+                        'textColor',
+                        ''
                     ]));
                     return _.map(pages, (page) => {
                         const pageType = _.get(page, '__metadata.modelName');
