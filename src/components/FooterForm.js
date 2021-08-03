@@ -16,7 +16,7 @@ export default function FooterForm(props) {
     const titleColor = _.get(section, 'titleColor');
     const textColor = _.get(section, 'textColor');
     const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
-    const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
+    const buttonBorderColor = _.get(section, 'buttonBorderColor');
     const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
     const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
 
