@@ -40,7 +40,7 @@
     }
 
     .bg-accent {
-      background: var(--color-primary);
+      background: var(--background-color-left);
       background: -webkit-gradient(linear, left top, right top, from($color-primary), to($color-secondary));
       background: linear-gradient(to right, $color-primary, $color-secondary);
 
