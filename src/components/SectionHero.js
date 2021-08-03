@@ -35,6 +35,11 @@ export default function SectionHero(props) {
                             </div>
                         )}
                     </div>
+                    {image && (
+                        <div className="cell block-preview order-image">
+                            <img src={withPrefix(image)} alt={imageAlt} />
+                        </div>
+                    )}
                 </div>
             </div>
             <style global jsx>{`
