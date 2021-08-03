@@ -22,6 +22,7 @@ export default function Action(props) {
     if (newWindow || noFollow) {
         attrs.rel = [(newWindow ? 'noopener' : '') + (noFollow ? 'nofollow' : '')].join(' ');
     }
+    const noFollow = _.get(action, 'no_follow');
 
     return (
         <Link
