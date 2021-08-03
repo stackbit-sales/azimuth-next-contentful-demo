@@ -24,8 +24,8 @@ export default function Action(props) {
     }
     const backgroundColor = _.get(action, 'backgroundColor');
     const borderColor = _.get(action, 'borderColor');
-    const textColor = _.get(action, 'textColor');
     const borderRadius = _.get(action, 'borderRadius');
+    const textColor = _.get(action, 'textColor');
     
     return (
         <Link
