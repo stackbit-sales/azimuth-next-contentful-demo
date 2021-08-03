@@ -67,10 +67,10 @@ export default function SectionContact(props) {
                     --contact-background-color: ${backgroundColor};
                     --contact-title-color: ${titleColor};
                     --contact-text-color: ${textColor};
-                    --button-background-color: ${buttonBackgroundColor};
-                    --button-border-color: ${buttonBorderColor};
-                    --button-text-color: ${buttonTextColor};
-                    --button-border-radius: ${buttonBorderRadius};
+                    --contact-button-background-color: ${buttonBackgroundColor};
+                    --contact-button-border-color: ${buttonBorderColor};
+                    --contact-button-text-color: ${buttonTextColor};
+                    --contact-button-border-radius: ${buttonBorderRadius};
                 };
             `}</style>
         </section>
