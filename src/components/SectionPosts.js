@@ -70,7 +70,7 @@ function RecentPost(post) {
                         </h3>
                     </header>
                     <div className="post-excerpt">
-                        <p>{excerpt}</p>
+                        <p style={{color: textColor}}>{excerpt}</p>
                     </div>
                     <BlogPostFooter post={post} dateType={'short'} />
                 </div>
