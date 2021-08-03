@@ -750,3 +750,12 @@
   color: var(--footer-form-text-color);
 }
 
+.order-image {
+
+}
+
+.order-content {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+}
