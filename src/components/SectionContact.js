@@ -67,6 +67,7 @@ export default function SectionContact(props) {
                     --contact-background-color: ${backgroundColor};
                     --contact-title-color: ${titleColor};
                     --contact-text-color: ${textColor};
+                    --contact-text-color: ${textColor};
                 };
             `}</style>
         </section>
