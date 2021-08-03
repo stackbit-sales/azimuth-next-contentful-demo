@@ -14,7 +14,7 @@ export default function Post(props) {
     const image = _.get(page, 'image');
     const imageAlt = _.get(page, 'image_alt');
     const content = _.get(page, 'content');
-    console.log(page);
+    console.log('page', page);
     
 
     return (
