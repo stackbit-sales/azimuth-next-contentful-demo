@@ -50,7 +50,7 @@ function ReviewItem(review) {
     const textColor = _.get(review, 'textColor');
 
     return (
-        <blockquote className="">
+        <blockquote className="cell review">
             <div className="card" style={{backgroundColor: backgroundColor}}>
                 <p className="review-text">{content}</p>
                 <footer className="review-footer">
