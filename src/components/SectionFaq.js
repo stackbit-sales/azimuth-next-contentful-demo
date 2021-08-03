@@ -62,7 +62,6 @@ function FaqItem(faqItem) {
     const titleColor = _.get(faqItem, 'titleColor');
     const iconColor = _.get(faqItem, 'iconColor');
     console.log(faqItem);
-    
 
     return (
         <React.Fragment>
