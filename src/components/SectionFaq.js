@@ -69,7 +69,7 @@ function FaqItem(faqItem) {
             <h3 className="faq-accordion-header handorgel__header" style={{backgroundColor: backgroundColor}}>
                 <button className="handorgel__trigger">
                     <span style={{color: titleColor}}>{question}</span>
-                    <span className="handorgel__icon icon-plus" />
+                    <span className="handorgel__icon icon-plus" style={{color: titleColor}} />
                 </button>
             </h3>
             <div className="faq-accordion-content handorgel__content">
