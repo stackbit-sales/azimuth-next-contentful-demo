@@ -22,6 +22,10 @@ export default function SectionContact(props) {
     const backgroundColor = _.get(section, 'backgroundColor');
     const titleColor = _.get(section, 'titleColor');
     const textColor = _.get(section, 'textColor');
+    const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
+    const buttonBorderColor = _.get(section, 'buttonBorderColor');
+    const buttonTextColor = _.get(section, 'buttonTextColor');
+    const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
 
     return (
         <section id={sectionId} className={`block contact-block contact-background-color outer`}>
