@@ -750,6 +750,16 @@
   color: var(--footer-form-text-color);
 }
 
+.order-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+}
+
 .order-image {
 
 }
