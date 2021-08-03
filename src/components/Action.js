@@ -31,7 +31,7 @@ export default function Action(props) {
         <Link
             href={withPrefix(url)}
             {...attrs}
-            className={button}
+            className="button"
              style={{backgroundColor: backgroundColor, borderColor: borderColor, borderRadius: borderRadius}}
         >
             <span className={classNames({ 'order-first': actionIconPos === 'right' })} style={{textColor: textColor}}>{label}</span>
