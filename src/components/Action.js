@@ -35,7 +35,7 @@ export default function Action(props) {
                 button: actionStyle === 'primary' || actionStyle === 'secondary',
                 secondary: actionStyle === 'secondary',
             })}
-             style={{backgroundColor: backgroundColor, borderColor: borderColor}}
+             style={{backgroundColor: backgroundColor, borderColor: borderColor, textColor: textColor, borderRadius, borderRadius}}
         >
             <span className={classNames({ 'order-first': actionIconPos === 'right' })}>{label}</span>
         </Link>
