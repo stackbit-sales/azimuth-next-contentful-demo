@@ -15,6 +15,7 @@ export default function FooterForm(props) {
     const submitLabel = _.get(section, 'submit_label');
     const titleColor = _.get(section, 'titleColor');
     const textColor = _.get(section, 'textColor');
+    const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
 
     return (
         <section className="cell widget widget-form">
