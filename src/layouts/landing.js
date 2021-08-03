@@ -22,7 +22,8 @@ export default function Landing(props) {
     const posts = _.get(props, 'posts');
     const sections = _.get(page, 'sections');
     const pageUrlPath = _.get(page, 'urlPath');
-
+    console.log('sections', sections);
+    
     return (
         <Layout page={page} config={config}>
             {_.map(sections, (section, index) => {
