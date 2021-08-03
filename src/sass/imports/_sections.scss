@@ -756,5 +756,5 @@
 }
 
 .order-image {
-    order: 0;
+    order: var(--swap-order);
 }
