@@ -46,7 +46,7 @@ export default function Action(props) {
 
     let test = "#10DC01"
     if(/[#]/i.test(test)) {
-        test = "hello"
+        test
     } else {
         test = "#" + test;
     }
