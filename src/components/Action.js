@@ -44,9 +44,9 @@ export default function Action(props) {
         paddingHorizontal += "em";
     }
 
-    let test = "10DC01"
+    let test = "#10DC01"
     if(/[#]/i.test(test)) {
-        test
+        test = "hello"
     } else {
         test = "#" + test;
     }
