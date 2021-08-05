@@ -50,7 +50,6 @@ export default function Action(props) {
     } else {
         test = "#" + test;
     }
-    console.log(test);
     
     
     return (
