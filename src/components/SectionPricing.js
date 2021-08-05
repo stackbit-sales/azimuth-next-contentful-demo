@@ -60,7 +60,7 @@ function PricingPlan(plan) {
                     </div>
                 )}
                 {actions && (
-                    <div className="">
+                    <div className="plan-footer">
                         <CtaButtons actions={actions} />
                     </div>
                 )}
