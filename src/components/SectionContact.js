@@ -26,8 +26,8 @@ export default function SectionContact(props) {
     const buttonBorderColor = _.get(section, 'buttonBorderColor');
     const buttonTextColor = _.get(section, 'buttonTextColor');
     let buttonBorderRadius = _.get(section, 'buttonBorderRadius');
-    let paddingVertical = _.get(action, 'paddingVertical');
-    let paddingHorizontal = _.get(action, 'paddingHorizontal');
+    let paddingVertical = _.get(section, 'paddingVertical');
+    let paddingHorizontal = _.get(section, 'paddingHorizontal');
 
     // If no number is set, set the number
     if (paddingVertical === undefined) { paddingVertical = "0.75em" }
@@ -45,7 +45,7 @@ export default function SectionContact(props) {
     } else {
         paddingHorizontal += "em";
     }
-    
+
     if(/[a-z]/i.test(buttonBorderRadius)) {
         buttonBorderRadius
     } else {
