@@ -45,7 +45,6 @@ export default function SectionHero(props) {
             </div>
             <style global jsx>{`
                 :root {
-                    --subtitle-color: ${subtitleColor};
                     --background-color-left: ${backgroundColorLeft};
                     --background-color-right: ${backgroundColorRight};
                     --swap-order: ${swapOrder};
