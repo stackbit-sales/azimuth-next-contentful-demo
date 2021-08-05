@@ -30,16 +30,17 @@ export default function Action(props) {
     if (paddingVertical === undefined) { paddingVertical = "0.75em" }
     if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
 
+    // If a number is set without 'em' or 'px' add 'em'
     if(/[a-z]/i.test(paddingVertical)) {
         paddingVertical
     } else {
         paddingVertical += "em";
     }
-    
-    if(/[a-z]/i.test(testPadding)) {
-        testPadding
+    // If a number is set without 'em' or 'px' add 'em'
+    if(/[a-z]/i.test(paddingHorizontal)) {
+        paddingHorizontal
     } else {
-        testPadding += "em";
+        paddingHorizontal += "em";
     }
     
     return (
