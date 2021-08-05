@@ -45,10 +45,10 @@ export default function Action(props) {
     }
 
     // If color code does not have '#' add it.
-    if(/[#]/i.test(test)) {
-        test
+    if(/[#]/i.test(backgroundColor)) {
+        backgroundColor
     } else {
-        test = "#" + test;
+        backgroundColor = "#" + backgroundColor;
     }
     
     
