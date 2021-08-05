@@ -25,14 +25,14 @@ export default function SectionHero(props) {
             <div className="inner">
                 <div className="grid order-container">
                     {image && (
-                        <div className="cell block-preview order-image">
+                        <div className="cell block-preview" style={}>
                             <img src={withPrefix(image)} alt={imageAlt} />
                         </div>
                     )}
                     <div className="cell block-content order-content">
-                        {title && <h2 className="block-title underline" style={{color: titleColor}}>{title}</h2>}
+                        {title && <h2 className="block-title underline" style={color: titleColor}>{title}</h2>}
                         {content && (
-                            <div style={{color: subtitleColor}}>
+                            <div style={color: subtitleColor}>
                                 <ReactMarkdown>{content}</ReactMarkdown>
                             </div>
                         )}
