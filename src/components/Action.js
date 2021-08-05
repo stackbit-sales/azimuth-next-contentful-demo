@@ -44,7 +44,7 @@ export default function Action(props) {
         paddingHorizontal += "em";
     }
 
-    let test = "#10DC01"
+    // If color code does not have '#' add it.
     if(/[#]/i.test(test)) {
         test
     } else {
