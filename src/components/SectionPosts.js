@@ -20,8 +20,8 @@ export default function SectionPosts(props) {
     return (
         <section id={sectionId} className={`block posts-block posts-background-color outer`} style={{backgroundColor: backgroundColor}}>
             <div className="block-header inner-small">
-                {title && <h2 className="block-title posts-title-color">{title}</h2>}
-                {subtitle && <p className="posts-text-color">{subtitle}</p>}
+                {title && <h2 className="block-title posts-title-color" style={{color: titleColor}}>{title}</h2>}
+                {subtitle && <p className="posts-text-color" style={{color: textColor}}>{subtitle}</p>}
             </div>
             <div className="inner">
                 <div className="grid post-feed">
