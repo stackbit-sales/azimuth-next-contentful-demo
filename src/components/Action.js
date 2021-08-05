@@ -36,6 +36,12 @@ export default function Action(props) {
         testPadding += "em";
     }
     
+    if(/[a-z]/i.test(testPadding)) {
+        testPadding
+    } else {
+        testPadding += "em";
+    }
+    
     return (
         <Link
             href={withPrefix(url)}
