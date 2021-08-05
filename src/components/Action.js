@@ -55,10 +55,10 @@ export default function Action(props) {
     } else {
         borderColor = "#" + borderColor;
     }
-    if(/[#]/i.test(textColor)) {
-        textColor
+    if(/[#]/i.test(titleColor)) {
+        titleColor
     } else {
-        textColor = "#" + textColor;
+        titleColor = "#" + titleColor;
     }
     if(/[#]/i.test(textColor)) {
         textColor
