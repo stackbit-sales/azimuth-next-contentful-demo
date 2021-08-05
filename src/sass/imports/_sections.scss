@@ -636,31 +636,7 @@
   color: var(--footer-nav-text-color);
 }
 
-.footer-form-title-color {
-  color: var(--footer-form-title-color) !important;
-}
-
-.footer-form-text-color {
-  color: var(--footer-form-text-color);
-}
-
 .order-container {
     display: flex; 
     flex-direction: row;
-}
-
-.submit-button-background-color {
-    background-color: var(--submit-button-background-color) !important;
-}
-
-.submit-button-text-color {
-    color: var(--submit-button-text-color) !important;
-}
-
-.submit-button-border-color {
-    border-color: var(--submit-button-border-color) !important;
-}
-
-.submit-button-border-radius {
-    border-radius: var(--submit-button-border-radius) !important;
 }
