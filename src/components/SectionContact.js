@@ -28,7 +28,7 @@ export default function SectionContact(props) {
     const buttonBorderRadius = _.get(section, 'buttonBorderRadius');
 
     return (
-        <section id={sectionId} className={`block contact-block contact-background-color outer`}>
+        <section id={sectionId} className={`block contact-block contact-background-color outer`} style={{backgroundColor: backgroundColor}}>
             <div className="block-header inner-small">
                 {title && <h2 className="block-title contact-title-color">{title}</h2>}
                 {subtitle && <p className="contact-text-color">{subtitle}</p>}
