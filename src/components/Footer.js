@@ -26,7 +26,7 @@ export default function Footer(props) {
     return (
         <footer id="colophon" className="site-footer">
             {!_.isEmpty(footerSections) && (
-                <div className="footer-top outer footer-background-color">
+                <div className="footer-top outer footer-background-color" style={{backgroundColor: backgroundColor}}>
                     <div className="inner">
                         <div className="grid footer-widgets">
                             {_.map(footerSections, (section, idx) => {
@@ -44,7 +44,7 @@ export default function Footer(props) {
                     </div>
                 </div>
             )}
-            <div className="outer footer-background-color">
+            <div className="outer footer-background-color" style={{backgroundColor: backgroundColor}}>
                 <div className="inner">
                     {!hideNavLinks && !_.isEmpty(navLinks) && (
                         <div className="footer-nav">
