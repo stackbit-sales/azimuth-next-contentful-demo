@@ -44,28 +44,11 @@ export default function Action(props) {
         paddingHorizontal += "em";
     }
 
-    // If color code does not have '#' add it.
-    if(/[#]/i.test(backgroundColor)) {
-        backgroundColor
-    } else {
-        backgroundColor = "#" + backgroundColor;
-    }
-    if(/[#]/i.test(borderColor)) {
-        borderColor
-    } else {
-        borderColor = "#" + borderColor;
-    }
     if(/[a-z]/i.test(borderRadius)) {
         borderRadius
     } else {
         borderRadius += "px";
     }
-    if(/[#]/i.test(textColor)) {
-        textColor
-    } else {
-        textColor = "#" + textColor;
-    }
-    
     
     return (
         <Link
