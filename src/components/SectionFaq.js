@@ -57,7 +57,6 @@ function FaqItem(faqItem) {
     const iconColor = _.get(faqItem, 'iconColor');
     const iconBackgroundColor = _.get(faqItem, 'iconBackgroundColor');
     let borderRadius = _.get(faqItem, 'borderRadius');
-    console.log('borderColor', borderColor);
     
     if(/[a-z]/i.test(borderRadius)) {
         borderRadius
