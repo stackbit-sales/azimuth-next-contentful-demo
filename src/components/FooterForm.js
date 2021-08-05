@@ -20,6 +20,12 @@ export default function FooterForm(props) {
     const buttonTextColor = _.get(section, 'buttonTextColor');
     const buttonBorderRadius = _.get(section, 'buttonBorderRadius');
 
+    if(/[a-z]/i.test(buttonBorderRadius)) {
+        buttonBorderRadius
+    } else {
+        buttonBorderRadius += "px";
+    }
+
     return (
         <section className="cell widget widget-form">
             {title && <h2 className="" style={{color: titleColor}}>{title}</h2>}
