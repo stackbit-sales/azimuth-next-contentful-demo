@@ -44,13 +44,6 @@ export default class SectionFaq extends React.Component {
                         </div>
                     )}
                 </div>
-                <style global jsx>{`
-                    :root {
-                        --faq-background-color: ${backgroundColor};
-                        --faq-title-color: ${titleColor};
-                        --faq-text-color: ${textColor};
-                    };
-                `}</style>
             </section>
         );
     }
