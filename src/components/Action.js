@@ -43,11 +43,11 @@ export default function Action(props) {
     } else {
         paddingHorizontal += "em";
     }
-    let test = ""
-    if(/[#]/i.test(paddingHorizontal)) {
-        paddingHorizontal
+    let test = "10DC01"
+    if(/[#]/i.test(test)) {
+        test
     } else {
-        paddingHorizontal += "em";
+        test += "em";
     }
     
     return (
