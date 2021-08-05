@@ -27,6 +27,7 @@ export default function Action(props) {
     let paddingVertical = _.get(action, 'paddingVertical');
     let paddingHorizontal = _.get(action, 'paddingHorizontal');
 
+    // If no number is set, set the number
     if (paddingVertical === undefined) { paddingVertical = "0.75em" }
     if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
 
@@ -36,7 +37,7 @@ export default function Action(props) {
     } else {
         paddingVertical += "em";
     }
-    // If a number is set without 'em' or 'px' add 'em'
+    
     if(/[a-z]/i.test(paddingHorizontal)) {
         paddingHorizontal
     } else {
