@@ -26,6 +26,8 @@ export default function Action(props) {
     const textColor = _.get(action, 'textColor');
     const paddingHorizontal = _.get(action, 'paddingHorizontal');
     const paddingVertical = _.get(action, 'paddingVertical');
+
+    if
     
     return (
         <Link
