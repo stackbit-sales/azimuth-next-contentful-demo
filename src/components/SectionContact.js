@@ -81,7 +81,7 @@ export default function SectionContact(props) {
                         </div>
                     ))}
                     <div className="form-row form-submit">
-                        <button type="submit" className="button" style={{backgroundColor: buttonBackgroundColor, borderColor: buttonBorderColor, borderRadius: buttonBorderRadius, color: buttonTextColor }}>
+                        <button type="submit" className="button" style={{backgroundColor: buttonBackgroundColor, borderColor: buttonBorderColor, borderRadius: buttonBorderRadius, color: buttonTextColor, padding: `${paddingVertical} ${paddingHorizontal}` }}>
                             {submitLabel}
                         </button>
                     </div>
