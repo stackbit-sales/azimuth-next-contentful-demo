@@ -58,6 +58,12 @@ function FaqItem(faqItem) {
     const iconBackgroundColor = _.get(faqItem, 'iconBackgroundColor');
     const borderColor = _.get(faqItem, 'borderColor');
     const borderRadius = _.get(faqItem, 'borderRadius');
+
+    if(/[a-z]/i.test(buttonBorderRadius)) {
+        buttonBorderRadius
+    } else {
+        buttonBorderRadius += "px";
+    }
     
     return (
         <React.Fragment>
