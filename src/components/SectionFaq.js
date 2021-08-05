@@ -59,10 +59,10 @@ function FaqItem(faqItem) {
     const borderColor = _.get(faqItem, 'borderColor');
     const borderRadius = _.get(faqItem, 'borderRadius');
 
-    if(/[a-z]/i.test(buttonBorderRadius)) {
-        buttonBorderRadius
+    if(/[a-z]/i.test(borderRadius)) {
+        borderRadius
     } else {
-        buttonBorderRadius += "px";
+        borderRadius += "px";
     }
     
     return (
