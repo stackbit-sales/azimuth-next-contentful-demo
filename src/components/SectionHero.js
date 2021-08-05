@@ -26,7 +26,7 @@ export default function SectionHero(props) {
 
 
     return (
-        <section id={sectionId} className={`block hero-block bg-accent outer`} style={{background: webkitGradient(linear, left top, right top, from(backgroundColorLeft), to(backgroundColorRight))}}>
+        <section id={sectionId} className={`block hero-block bg-accent outer`} style={{background: linear-gradient(#e66465, #9198e5)webkitGradient(linear, left top, right top, from(backgroundColorLeft), to(backgroundColorRight))}}>
             <div className="inner">
                 <div className="grid order-container">
                     {image && (
