@@ -29,7 +29,7 @@ export default function SectionHero(props) {
                         </div>
                     )}
                     <div className="cell block-content order-content">
-                        {title && <h2 className="block-title underline" style={{backgroundColor: backgroundColor, borderColor: borderColor, borderRadius: borderRadius}}>{title}</h2>}
+                        {title && <h2 className="block-title underline" style={{}}>{title}</h2>}
                         {content && (
                             <div className="text-color-subtitle">
                                 <ReactMarkdown>{content}</ReactMarkdown>
