@@ -26,7 +26,7 @@ export default function SectionHero(props) {
 
 
     return (
-        <section id={sectionId} className={`block hero-block bg-accent outer`}>
+        <section id={sectionId} className={`block hero-block bg-accent outer`} style={{}}>
             <div className="inner">
                 <div className="grid order-container">
                     {image && (
