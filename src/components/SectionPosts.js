@@ -18,10 +18,10 @@ export default function SectionPosts(props) {
     const textColor = _.get(section, 'textColor');    
 
     return (
-        <section id={sectionId} className={`block posts-block posts-background-color outer`}>
+        <section id={sectionId} className={`block posts-block outer`} style={{backgroundColor: backgroundColor}}>
             <div className="block-header inner-small">
-                {title && <h2 className="block-title posts-title-color">{title}</h2>}
-                {subtitle && <p className="posts-text-color">{subtitle}</p>}
+                {title && <h2 className="block-title" style={{color: titleColor}}>{title}</h2>}
+                {subtitle && <p className="" style={{color: textColor}}>{subtitle}</p>}
             </div>
             <div className="inner">
                 <div className="grid post-feed">
@@ -30,13 +30,6 @@ export default function SectionPosts(props) {
                     ))}
                 </div>
             </div>
-            <style global jsx>{`
-                :root {
-                    --posts-background-color: ${backgroundColor};
-                    --posts-title-color: ${titleColor};
-                    --posts-text-color: ${textColor};
-                };
-            `}</style>
         </section>
     );
 }

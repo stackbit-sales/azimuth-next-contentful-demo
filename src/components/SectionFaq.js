@@ -30,11 +30,11 @@ export default class SectionFaq extends React.Component {
         
         
         return (
-            <section id={sectionId} className={`block faq-block faq-background-color outer`}>
+            <section id={sectionId} className={`block faq-block outer`} style={{backgroundColor: backgroundColor}}>
                 <div className="inner-small">
                     <div className="block-header">
-                        {title && <h2 className="block-title faq-title-color">{title}</h2>}
-                        {subtitle && <p className="faq-text-color">{subtitle}</p>}
+                        {title && <h2 className="block-title" style={{color: titleColor}}>{title}</h2>}
+                        {subtitle && <p className="" style={{color: textColor}}>{subtitle}</p>}
                     </div>
                     {faqItems && (
                         <div className="faq-accordion handorgel" ref={this.handorgelRef}>
@@ -44,13 +44,6 @@ export default class SectionFaq extends React.Component {
                         </div>
                     )}
                 </div>
-                <style global jsx>{`
-                    :root {
-                        --faq-background-color: ${backgroundColor};
-                        --faq-title-color: ${titleColor};
-                        --faq-text-color: ${textColor};
-                    };
-                `}</style>
             </section>
         );
     }

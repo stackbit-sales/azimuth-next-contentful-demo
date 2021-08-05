@@ -20,10 +20,35 @@ export default function Action(props) {
     if (newWindow || noFollow) {
         attrs.rel = [(newWindow ? 'noopener' : '') + (noFollow ? 'nofollow' : '')].join(' ');
     }
-    const backgroundColor = _.get(action, 'backgroundColor');
-    const borderColor = _.get(action, 'borderColor');
-    const borderRadius = _.get(action, 'borderRadius');
-    const textColor = _.get(action, 'textColor');
+    let backgroundColor = _.get(action, 'backgroundColor');
+    let borderColor = _.get(action, 'borderColor');
+    let borderRadius = _.get(action, 'borderRadius');
+    let textColor = _.get(action, 'textColor');
+    let paddingVertical = _.get(action, 'paddingVertical');
+    let paddingHorizontal = _.get(action, 'paddingHorizontal');
+
+    // If no number is set, set the number
+    if (paddingVertical === undefined) { paddingVertical = "0.75em" }
+    if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
+
+    // If a number is set without 'em' or 'px' add 'em'
+    if(/[a-z]/i.test(paddingVertical)) {
+        paddingVertical
+    } else {
+        paddingVertical += "em";
+    }
+    
+    if(/[a-z]/i.test(paddingHorizontal)) {
+        paddingHorizontal
+    } else {
+        paddingHorizontal += "em";
+    }
+
+    if(/[a-z]/i.test(borderRadius)) {
+        borderRadius
+    } else {
+        borderRadius += "px";
+    }
     
     return (
         <Link
@@ -34,7 +59,7 @@ export default function Action(props) {
             //     button: actionStyle === 'primary' || actionStyle === 'secondary',
             //     secondary: actionStyle === 'secondary',
             // })}
-             style={{backgroundColor: backgroundColor, borderColor: borderColor, borderRadius: borderRadius}}
+             style={{backgroundColor: backgroundColor, borderColor: borderColor, borderRadius: borderRadius, padding: `${paddingVertical} ${paddingHorizontal}`}}
         >
             <span className="" style={{color: textColor}}>{label}</span>
         </Link>

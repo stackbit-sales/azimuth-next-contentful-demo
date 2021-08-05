@@ -26,7 +26,7 @@ export default function Footer(props) {
     return (
         <footer id="colophon" className="site-footer">
             {!_.isEmpty(footerSections) && (
-                <div className="footer-top outer footer-background-color">
+                <div className="footer-top outer" style={{backgroundColor: backgroundColor}}>
                     <div className="inner">
                         <div className="grid footer-widgets">
                             {_.map(footerSections, (section, idx) => {
@@ -44,11 +44,11 @@ export default function Footer(props) {
                     </div>
                 </div>
             )}
-            <div className="footer-bottom outer footer-background-color">
+            <div className="outer" style={{backgroundColor: backgroundColor}}>
                 <div className="inner">
                     {!hideNavLinks && !_.isEmpty(navLinks) && (
                         <div className="footer-nav">
-                            <ul className="menu footer-bottom-text-color">
+                            <ul className="menu" style={{color: textColor}}>
                                 {_.map(navLinks, (action, actionIdx) => (
                                     <li key={actionIdx} className="menu-item">
                                         <ActionLink action={action} />
@@ -57,7 +57,7 @@ export default function Footer(props) {
                             </ul>
                         </div>
                     )}
-                    <div className="site-info footer-bottom-text-color">
+                    <div className="site-info" style={{color: textColor}}>
                         <div dangerouslySetInnerHTML={{ __html: footerContent }} />
                         &nbsp;
                         {_.map(links, (action, actionIdx) => (
@@ -66,12 +66,6 @@ export default function Footer(props) {
                     </div>
                 </div>
             </div>
-            <style global jsx>{`
-                :root {
-                    --footer-background-color: ${backgroundColor};
-                    --footer-bottom-text-color: ${textColor};
-                };
-            `}</style>
         </footer>
     );
 }

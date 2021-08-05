@@ -17,10 +17,10 @@ export default function SectionFeatures(props) {
     const textColor = _.get(section, 'textColor');
     
     return (
-        <section id={sectionId} className={`block features-block features-background-color outer`}>
+        <section id={sectionId} className={`block features-block outer`} style={{backgroundColor: backgroundColor}}>
             <div className="block-header inner-small">
-                {title && <h2 className="block-title features-title-color">{title}</h2>}
-                {subtitle && <p className="features-text-color">{subtitle}</p>}
+                {title && <h2 className="block-title" style={{color: titleColor}}>{title}</h2>}
+                {subtitle && <p className="" style={{color: textColor}}>{subtitle}</p>}
             </div>
             {features && (
                 <div className="inner">
@@ -29,13 +29,6 @@ export default function SectionFeatures(props) {
                     ))}
                 </div>
             )}
-            <style global jsx>{`
-                :root {
-                    --features-background-color: ${backgroundColor};
-                    --features-title-color: ${titleColor};
-                    --features-text-color: ${textColor};
-                };
-            `}</style>
         </section>
     );
 }
@@ -70,11 +63,6 @@ function FeatureItem(featureItem) {
                     )}
                 </div>
             </div>
-            <style global jsx>{`
-                :root {
-                    --feature-item-background-color: ${backgroundColor};
-                };
-            `}</style>
         </div>
     );
 }

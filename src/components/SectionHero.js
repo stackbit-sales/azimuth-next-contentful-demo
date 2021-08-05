@@ -17,21 +17,27 @@ export default function SectionHero(props) {
     const subtitleColor = _.get(section, 'subtitleColor');
     const backgroundColorLeft = _.get(section, 'backgroundColorLeft');
     const backgroundColorRight = _.get(section, 'backgroundColorRight');
-    const swapOrder = _.get(section, 'swapOrder');
+    let imagePosition = _.get(section, 'imagePosition');
+    if (imagePosition === "left") {
+        imagePosition = 1;
+    } else {
+        imagePosition = 0;
+    }
+
 
     return (
-        <section id={sectionId} className={`block hero-block bg-accent outer`}>
+        <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`}}>
             <div className="inner">
                 <div className="grid order-container">
                     {image && (
-                        <div className="cell block-preview order-image">
+                        <div className="cell block-preview" style={{order: imagePosition}}>
                             <img src={withPrefix(image)} alt={imageAlt} />
                         </div>
                     )}
                     <div className="cell block-content order-content">
-                        {title && <h2 className="block-title underline">{title}</h2>}
+                        {title && <h2 className="block-title underline" style={{color: titleColor}}>{title}</h2>}
                         {content && (
-                            <div className="text-color-subtitle">
+                            <div style={{color: subtitleColor}}>
                                 <ReactMarkdown>{content}</ReactMarkdown>
                             </div>
                         )}
@@ -43,15 +49,6 @@ export default function SectionHero(props) {
                     </div>
                 </div>
             </div>
-            <style global jsx>{`
-                :root {
-                    --title-color: ${titleColor};
-                    --subtitle-color: ${subtitleColor};
-                    --background-color-left: ${backgroundColorLeft};
-                    --background-color-right: ${backgroundColorRight};
-                    --swap-order: ${swapOrder};
-                };
-            `}</style>
         </section>
     );
 }

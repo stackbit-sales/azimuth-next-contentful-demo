@@ -25,13 +25,19 @@ export default function SectionContact(props) {
     const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
     const buttonBorderColor = _.get(section, 'buttonBorderColor');
     const buttonTextColor = _.get(section, 'buttonTextColor');
-    const buttonBorderRadius = _.get(section, 'buttonBorderRadius');
+    let buttonBorderRadius = _.get(section, 'buttonBorderRadius');
+
+    if(/[a-z]/i.test(buttonBorderRadius)) {
+        buttonBorderRadius
+    } else {
+        buttonBorderRadius += "px";
+    }
 
     return (
-        <section id={sectionId} className={`block contact-block contact-background-color outer`}>
+        <section id={sectionId} className={`block contact-block outer`} style={{backgroundColor: backgroundColor}}>
             <div className="block-header inner-small">
-                {title && <h2 className="block-title contact-title-color">{title}</h2>}
-                {subtitle && <p className="contact-text-color">{subtitle}</p>}
+                {title && <h2 className="block-title" style={{color: titleColor}}>{title}</h2>}
+                {subtitle && <p className="" style={{color: textColor}}>{subtitle}</p>}
             </div>
             <div className="block-content inner-medium">
                 <ReactMarkdown>{content}</ReactMarkdown>
@@ -56,23 +62,12 @@ export default function SectionContact(props) {
                         </div>
                     ))}
                     <div className="form-row form-submit">
-                        <button type="submit" className="button contact-button-background-color contact-button-border-color contact-button-text-color contact-button-border-radius">
+                        <button type="submit" className="button" style={{backgroundColor: buttonBackgroundColor, borderColor: buttonBorderColor, borderRadius: buttonBorderRadius, color: buttonTextColor }}>
                             {submitLabel}
                         </button>
                     </div>
                 </form>
             </div>
-            <style global jsx>{`
-                :root {
-                    --contact-background-color: ${backgroundColor};
-                    --contact-title-color: ${titleColor};
-                    --contact-text-color: ${textColor};
-                    --contact-button-background-color: ${buttonBackgroundColor};
-                    --contact-button-border-color: ${buttonBorderColor};
-                    --contact-button-text-color: ${buttonTextColor};
-                    --contact-button-border-radius: ${buttonBorderRadius};
-                };
-            `}</style>
         </section>
     );
 }

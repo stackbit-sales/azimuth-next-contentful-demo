@@ -324,7 +324,6 @@
 
   a {
     margin: 0 0 1em;
-    width: 100%;
   }
 }
 
@@ -567,8 +566,8 @@
 
   &.bg-accent {
     background: var(--color-primary);
-    background: -webkit-gradient(linear, left top, right top, from(var(--background-color-left)), to(var(--background-color-right)));
-    background: linear-gradient(to right, var(--background-color-left), var(--background-color-right));
+    background: -webkit-gradient(linear, left top, right top, from(#FFF), to(#FFF));
+    background: linear-gradient(to right, #FFF, #FFF);
     color: #fff;
 
     a {
@@ -591,7 +590,7 @@
     blockquote,
     caption,
     th {
-      color: var(--title-color);
+      color: $gray-700;
     }
 
     .block-subtitle {
@@ -616,175 +615,7 @@
   }
 }
 
-.features-background-color {
-  background-color: var(--features-background-color);
-}
-
-.features-title-color {
-  color: var(--features-title-color);
-}
-
-.features-text-color {
-  color: var(--features-text-color);
-}
-
-.feature-item-background-color {
-  background-color: var(--feature-item-background-color);
-}
-
-.reviews-background-color {
-  background-color: var(--reviews-background-color);
-}
-
-.reviews-title-color {
-  color: var(--reviews-title-color);
-}
-
-.reviews-text-color {
-  color: var(--reviews-text-color);
-}
-
-.cta-background-color {
-  background-color: var(--cta-background-color);
-}
-
-.cta-title-color {
-  color: var(--cta-title-color);
-}
-
-.cta-text-color {
-  color: var(--cta-text-color);
-}
-
-.posts-background-color {
-  background-color: var(--posts-background-color);
-}
-
-.posts-title-color {
-  color: var(--posts-title-color);
-}
-
-.posts-text-color {
-  color: var(--posts-text-color);
-}
-
-.content-background-color {
-  background-color: var(--content-background-color);
-}
-
-.content-title-color {
-  color: var(--content-title-color);
-}
-
-.content-text-color {
-  color: var(--content-text-color);
-}
-
-.faq-background-color {
-  background-color: var(--faq-background-color);
-}
-
-.faq-title-color {
-  color: var(--faq-title-color);
-}
-
-.faq-text-color {
-  color: var(--faq-text-color);
-}
-
-.faq-card-background-color {
-  background-color: var(--faq-card-background-color);
-}
-
-.pricing-background-color {
-  background-color: var(--pricing-background-color);
-}
-
-.pricing-title-color {
-  color: var(--pricing-title-color);
-}
-
-.pricing-text-color {
-  color: var(--pricing-text-color);
-}
-
-.contact-background-color {
-  background-color: var(--contact-background-color);
-}
-
-.contact-title-color {
-  color: var(--contact-title-color);
-}
-
-.contact-text-color {
-  color: var(--contact-text-color);
-}
-
-.footer-background-color {
-  background-color: var(--footer-background-color);
-}
-
-.footer-bottom-text-color {
-  color: var(--footer-bottom-text-color);
-}
-
-.footer-text-color {
-  color: var(--footer-text-color);
-}
-
-.footer-nav-title-color {
-  color: var(--footer-nav-title-color) !important;
-}
-
-.footer-nav-text-color {
-  color: var(--footer-nav-text-color);
-}
-
-.footer-form-title-color {
-  color: var(--footer-form-title-color) !important;
-}
-
-.footer-form-text-color {
-  color: var(--footer-form-text-color);
-}
-
 .order-container {
     display: flex; 
     flex-direction: row;
-}
-
-.order-image {
-    order: var(--swap-order);
-}
-
-.submit-button-background-color {
-    background-color: var(--submit-button-background-color) !important;
-}
-
-.submit-button-text-color {
-    color: var(--submit-button-text-color) !important;
-}
-
-.submit-button-border-color {
-    border-color: var(--submit-button-border-color) !important;
-}
-
-.submit-button-border-radius {
-    border-radius: var(--submit-button-border-radius) !important;
-}
-
-.contact-button-background-color {
-    background-color: var(--contact-button-background-color) !important;
-}
-
-.contact-button-text-color {
-    color: var(--contact-button-text-color) !important;
-}
-
-.contact-button-border-color {
-    border-color: var(--contact-button-border-color) !important;
-}
-
-.contact-button-border-radius {
-    border-radius: var(--contact-button-border-radius) !important;
 }

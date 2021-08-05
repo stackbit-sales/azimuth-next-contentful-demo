@@ -18,12 +18,18 @@ export default function FooterForm(props) {
     const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
     const buttonBorderColor = _.get(section, 'buttonBorderColor');
     const buttonTextColor = _.get(section, 'buttonTextColor');
-    const buttonBorderRadius = _.get(section, 'buttonBorderRadius');
+    let buttonBorderRadius = _.get(section, 'buttonBorderRadius');
+
+    if(/[a-z]/i.test(buttonBorderRadius)) {
+        buttonBorderRadius
+    } else {
+        buttonBorderRadius += "px";
+    }
 
     return (
         <section className="cell widget widget-form">
-            {title && <h2 className="footer-form-title-color">{title}</h2>}
-            <div className="footer-form-text-color">
+            {title && <h2 className="" style={{color: titleColor}}>{title}</h2>}
+            <div className="" style={{color: textColor}}>
                 <ReactMarkdown>{content}</ReactMarkdown>
             </div>
             <form
@@ -48,7 +54,7 @@ export default function FooterForm(props) {
                 ))}
                 {submitLabel && (
                     <div className="form-row">
-                        <button type="submit" className="button submit-button-background-color submit-button-border-color submit-button-text-color submit-button-border-radius">
+                        <button type="submit" className="button"style={{backgroundColor: buttonBackgroundColor, borderColor: buttonBorderColor, borderRadius: buttonBorderRadius, color: buttonTextColor }}>
                             {submitLabel}
                         </button>
                     </div>
