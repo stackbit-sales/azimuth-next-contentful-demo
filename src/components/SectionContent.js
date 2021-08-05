@@ -19,7 +19,7 @@ export default function SectionContent(props) {
     const textColor = _.get(section, 'textColor');
 
     return (
-        <section id={sectionId} className={`block text-block content-background-color outer`} style={{backgroundColor: backgroundColor}}>
+        <section id={sectionId} className={`block text-block outer`} style={{backgroundColor: backgroundColor}}>
             <div className="inner">
                 <div className="grid">
                     {image && (
@@ -28,9 +28,9 @@ export default function SectionContent(props) {
                         </div>
                     )}
                     <div className="cell block-content">
-                        {title && <h2 className="block-title content-title-color" style={{color: titleColor}}>{title}</h2>}
+                        {title && <h2 className="block-title" style={{color: titleColor}}>{title}</h2>}
                         {content && (
-                            <div className="block-copy content-text-color" style={{color: textColor}}>
+                            <div className="block-copy" style={{color: textColor}}>
                                 <ReactMarkdown>{content}</ReactMarkdown>
                             </div>
                         )}
