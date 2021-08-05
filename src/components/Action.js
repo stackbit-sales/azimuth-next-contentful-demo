@@ -24,11 +24,11 @@ export default function Action(props) {
     const borderColor = _.get(action, 'borderColor');
     const borderRadius = _.get(action, 'borderRadius');
     const textColor = _.get(action, 'textColor');
-    let paddingHorizontal = _.get(action, 'paddingHorizontal');
     let paddingVertical = _.get(action, 'paddingVertical');
+    let paddingHorizontal = _.get(action, 'paddingHorizontal');
 
-    if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
     if (paddingVertical === undefined) { paddingVertical = "0.75em" }
+    if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
     
     return (
         <Link
