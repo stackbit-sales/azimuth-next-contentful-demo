@@ -30,15 +30,11 @@ export default function Action(props) {
     if (paddingVertical === undefined) { paddingVertical = "0.75em" }
     if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
 
-    let testPadding = "1.5"
-
     if(/[a-z]/i.test(testPadding)) {
         testPadding
     } else {
         testPadding += "em";
     }
-    console.log(testPadding);
-    
     
     return (
         <Link
