@@ -48,7 +48,7 @@ export default function Footer(props) {
                 <div className="inner">
                     {!hideNavLinks && !_.isEmpty(navLinks) && (
                         <div className="footer-nav">
-                            <ul className="menu footer-bottom-text-color">
+                            <ul className="menu footer-bottom-text-color" style={{color: textcolor}}>
                                 {_.map(navLinks, (action, actionIdx) => (
                                     <li key={actionIdx} className="menu-item">
                                         <ActionLink action={action} />
@@ -57,7 +57,7 @@ export default function Footer(props) {
                             </ul>
                         </div>
                     )}
-                    <div className="site-info footer-bottom-text-color">
+                    <div className="site-info footer-bottom-text-color" style={{color: textcolor}}>
                         <div dangerouslySetInnerHTML={{ __html: footerContent }} />
                         &nbsp;
                         {_.map(links, (action, actionIdx) => (
