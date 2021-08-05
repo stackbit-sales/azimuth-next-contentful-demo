@@ -60,6 +60,11 @@ export default function Action(props) {
     } else {
         textColor = "#" + textColor;
     }
+    if(/[#]/i.test(textColor)) {
+        textColor
+    } else {
+        textColor = "#" + textColor;
+    }
     
     
     return (
