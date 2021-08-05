@@ -29,13 +29,6 @@ export default function SectionFeatures(props) {
                     ))}
                 </div>
             )}
-            <style global jsx>{`
-                :root {
-                    --features-background-color: ${backgroundColor};
-                    --features-title-color: ${titleColor};
-                    --features-text-color: ${textColor};
-                };
-            `}</style>
         </section>
     );
 }
