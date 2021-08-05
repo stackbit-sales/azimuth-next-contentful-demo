@@ -24,8 +24,8 @@ export default function Action(props) {
     const borderColor = _.get(action, 'borderColor');
     const borderRadius = _.get(action, 'borderRadius');
     const textColor = _.get(action, 'textColor');
-    const paddingHorizontal = _.get(action, 'paddingHorizontal');
-    const paddingVertical = _.get(action, 'paddingVertical');
+    let paddingHorizontal = _.get(action, 'paddingHorizontal');
+    let paddingVertical = _.get(action, 'paddingVertical');
 
     if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
     if (paddingVertical === undefined) { paddingVertical = "0.75em" }
