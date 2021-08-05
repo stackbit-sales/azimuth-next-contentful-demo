@@ -17,7 +17,7 @@ export default function SectionFeatures(props) {
     const textColor = _.get(section, 'textColor');
     
     return (
-        <section id={sectionId} className={`block features-block features-background-color outer`}>
+        <section id={sectionId} className={`block features-block outer`} style={{backgroundColor: backgroundColor}}>
             <div className="block-header inner-small">
                 {title && <h2 className="block-title features-title-color">{title}</h2>}
                 {subtitle && <p className="features-text-color">{subtitle}</p>}
