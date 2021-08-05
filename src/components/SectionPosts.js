@@ -30,13 +30,6 @@ export default function SectionPosts(props) {
                     ))}
                 </div>
             </div>
-            <style global jsx>{`
-                :root {
-                    --posts-background-color: ${backgroundColor};
-                    --posts-title-color: ${titleColor};
-                    --posts-text-color: ${textColor};
-                };
-            `}</style>
         </section>
     );
 }
