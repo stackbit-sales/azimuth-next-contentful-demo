@@ -57,6 +57,7 @@ function FaqItem(faqItem) {
     const iconColor = _.get(faqItem, 'iconColor');
     const iconBackgroundColor = _.get(faqItem, 'iconBackgroundColor');
     const borderColor = _.get(faqItem, 'borderColor');
+    const borderRadius = _.get(faqItem, 'borderRadius');
     
     return (
         <React.Fragment>
