@@ -34,7 +34,7 @@ export default function Action(props) {
             //     button: actionStyle === 'primary' || actionStyle === 'secondary',
             //     secondary: actionStyle === 'secondary',
             // })}
-             style={{backgroundColor: backgroundColor, borderColor: borderColor, borderRadius: borderRadius, padding: 0.5em 1.875em;}}
+             style={{`backgroundColor: ${backgroundColor}, borderColor: borderColor, borderRadius: borderRadius, padding: 0.5em 1.875em`}}
         >
             <span className="" style={{color: textColor}}>{label}</span>
         </Link>
