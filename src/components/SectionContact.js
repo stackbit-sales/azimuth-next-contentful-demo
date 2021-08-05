@@ -64,9 +64,6 @@ export default function SectionContact(props) {
             </div>
             <style global jsx>{`
                 :root {
-                    --contact-background-color: ${backgroundColor};
-                    --contact-title-color: ${titleColor};
-                    --contact-text-color: ${textColor};
                     --contact-button-background-color: ${buttonBackgroundColor};
                     --contact-button-border-color: ${buttonBorderColor};
                     --contact-button-text-color: ${buttonTextColor};
