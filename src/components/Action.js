@@ -30,7 +30,7 @@ export default function Action(props) {
     if (paddingVertical === undefined) { paddingVertical = "0.75em" }
     if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
 
-    
+    var regExp = /[a-zA-Z]/g;
     
     return (
         <Link
