@@ -26,7 +26,26 @@ export default function SectionContact(props) {
     const buttonBorderColor = _.get(section, 'buttonBorderColor');
     const buttonTextColor = _.get(section, 'buttonTextColor');
     let buttonBorderRadius = _.get(section, 'buttonBorderRadius');
+    let paddingVertical = _.get(action, 'paddingVertical');
+    let paddingHorizontal = _.get(action, 'paddingHorizontal');
 
+    // If no number is set, set the number
+    if (paddingVertical === undefined) { paddingVertical = "0.75em" }
+    if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
+
+    // If a number is set without 'em' or 'px' add 'em'
+    if(/[a-z]/i.test(paddingVertical)) {
+        paddingVertical
+    } else {
+        paddingVertical += "em";
+    }
+    
+    if(/[a-z]/i.test(paddingHorizontal)) {
+        paddingHorizontal
+    } else {
+        paddingHorizontal += "em";
+    }
+    
     if(/[a-z]/i.test(buttonBorderRadius)) {
         buttonBorderRadius
     } else {
