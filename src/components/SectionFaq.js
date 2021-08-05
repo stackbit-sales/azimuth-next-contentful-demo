@@ -33,8 +33,8 @@ export default class SectionFaq extends React.Component {
             <section id={sectionId} className={`block faq-block faq-background-color outer`} style={{backgroundColor: backgroundColor}}>
                 <div className="inner-small">
                     <div className="block-header">
-                        {title && <h2 className="block-title faq-title-color">{title}</h2>}
-                        {subtitle && <p className="faq-text-color">{subtitle}</p>}
+                        {title && <h2 className="block-title faq-title-color" style={{color: titleColor}}>{title}</h2>}
+                        {subtitle && <p className="faq-text-color" style={{color: textColor}}>{subtitle}</p>}
                     </div>
                     {faqItems && (
                         <div className="faq-accordion handorgel" ref={this.handorgelRef}>
