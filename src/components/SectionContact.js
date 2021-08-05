@@ -80,7 +80,7 @@ export default function SectionContact(props) {
                             <FormField field={field} hideLabels={hideLabels} />
                         </div>
                     ))}
-                    <div className="form-row">
+                    <div className="form-row form-submit">
                         <button type="submit" className="button" style={{backgroundColor: buttonBackgroundColor, borderColor: buttonBorderColor, borderRadius: buttonBorderRadius, color: buttonTextColor, padding: `${paddingVertical} ${paddingHorizontal}` }}>
                             {submitLabel}
                         </button>
