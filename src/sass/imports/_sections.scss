@@ -529,7 +529,7 @@
 }
 
 .handorgel__header--open.handorgel__header--opened {
-  border-radius: $border-radius $border-radius 0 0;
+  border-radius: 2px 0 0;
 
   .icon-plus:after {
     display: none;
