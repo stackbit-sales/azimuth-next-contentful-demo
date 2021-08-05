@@ -27,7 +27,7 @@ export default function Action(props) {
     const paddingHorizontal = _.get(action, 'paddingHorizontal');
     const paddingVertical = _.get(action, 'paddingVertical');
 
-    if (paddingHorizontal === undefined) { paddingHorizontal = }
+    if (paddingHorizontal === undefined) { paddingHorizontal = 1.875em}
     
     return (
         <Link
