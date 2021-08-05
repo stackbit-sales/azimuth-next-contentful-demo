@@ -22,8 +22,8 @@ export default function FooterForm(props) {
 
     return (
         <section className="cell widget widget-form">
-            {title && <h2 className="footer-form-title-color" style={{color: titleColor}}>{title}</h2>}
-            <div className="footer-form-text-color" style={{color: textColor}}>
+            {title && <h2 className="" style={{color: titleColor}}>{title}</h2>}
+            <div className="" style={{color: textColor}}>
                 <ReactMarkdown>{content}</ReactMarkdown>
             </div>
             <form
