@@ -23,6 +23,18 @@ export default function Footer(props) {
     const backgroundColor = _.get(footer, 'backgroundColor');
     const textColor = _.get(footer, 'textColor');
 
+    // If color code does not have '#' add it.
+    if(/[#]/i.test(backgroundColor)) {
+        backgroundColor
+    } else {
+        backgroundColor = "#" + backgroundColor;
+    }
+    if(/[#]/i.test(textColor)) {
+        textColor
+    } else {
+        textColor = "#" + textColor;
+    }
+
     return (
         <footer id="colophon" className="site-footer">
             {!_.isEmpty(footerSections) && (
