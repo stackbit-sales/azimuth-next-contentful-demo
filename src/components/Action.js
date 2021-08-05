@@ -55,10 +55,10 @@ export default function Action(props) {
     } else {
         borderColor = "#" + borderColor;
     }
-    if(/[#]/i.test(borderRadius)) {
+    if(/[a-z]/i.test(borderRadius)) {
         borderRadius
     } else {
-        borderRadius = "#" + borderRadius;
+        borderRadius += borderRadius;
     }
     if(/[#]/i.test(textColor)) {
         textColor
