@@ -32,12 +32,12 @@ export default function Action(props) {
 
     let testPadding = "1.5"
 
-    if(/[a-z]/i.test(paddingHorizontal)) {
-        paddingHorizontal
+    if(/[a-z]/i.test(testPadding)) {
+        testPadding
     } else {
-        paddingHorizontal += "em";
+        testPadding += "em";
     }
-    console.log(paddingHorizontal);
+    console.log(testPadding);
     
     
     return (
