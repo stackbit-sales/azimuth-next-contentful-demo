@@ -50,10 +50,10 @@ export default function Action(props) {
     } else {
         backgroundColor = "#" + backgroundColor;
     }
-    if(/[#]/i.test(backgroundColor)) {
-        backgroundColor
+    if(/[#]/i.test(borderColor)) {
+        borderColor
     } else {
-        backgroundColor = "#" + backgroundColor;
+        borderColor = "#" + borderColor;
     }
     if(/[#]/i.test(backgroundColor)) {
         backgroundColor
