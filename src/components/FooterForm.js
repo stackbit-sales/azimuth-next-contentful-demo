@@ -73,7 +73,7 @@ export default function FooterForm(props) {
                 ))}
                 {submitLabel && (
                     <div className="form-row">
-                        <button type="submit" className="button"style={{backgroundColor: buttonBackgroundColor, borderColor: buttonBorderColor, borderRadius: buttonBorderRadius, color: buttonTextColor }}>
+                        <button type="submit" className="button"style={{backgroundColor: buttonBackgroundColor, borderColor: buttonBorderColor, borderRadius: buttonBorderRadius, color: buttonTextColor, padding: `${paddingVertical} ${paddingHorizontal}` }}>
                             {submitLabel}
                         </button>
                     </div>
