@@ -19,7 +19,7 @@ export default function SectionContent(props) {
     const textColor = _.get(section, 'textColor');
 
     return (
-        <section id={sectionId} className={`block text-block content-background-color outer`}>
+        <section id={sectionId} className={`block text-block content-background-color outer`} style={{backgroundColor: backgroundColor}}>
             <div className="inner">
                 <div className="grid">
                     {image && (
