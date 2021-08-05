@@ -17,10 +17,10 @@ export default function SectionPricing(props) {
     const textColor = _.get(section, 'textColor');
 
     return (
-        <section id={sectionId} className={`block pricing-block pricing-background-color outer`} style={{backgroundColor: backgroundColor}}>
+        <section id={sectionId} className={`block pricing-block outer`} style={{backgroundColor: backgroundColor}}>
             <div className="block-header inner-small">
-                {title && <h2 className="block-title pricing-title-color" style={{color: titleColor}}>{title}</h2>}
-                {subtitle && <p className="pricing-text-color" style={{color: textColor}}>{subtitle}</p>}
+                {title && <h2 className="block-title" style={{color: titleColor}}>{title}</h2>}
+                {subtitle && <p className="" style={{color: textColor}}>{subtitle}</p>}
             </div>
             {pricingPlans && (
                 <div className="inner">
