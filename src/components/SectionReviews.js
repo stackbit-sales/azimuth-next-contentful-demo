@@ -15,7 +15,7 @@ export default function SectionReviews(props) {
     const textColor = _.get(section, 'textColor');
 
     return (
-        <section id={sectionId} className={`block reviews-block reviews-background-color outer`}>
+        <section id={sectionId} className={`block reviews-block outer`} style={{backgroundColor: backgroundColor}}>
             <div className="block-header inner-small">
                 {title && <h2 className="block-title reviews-title-color">{title}</h2>}
                 {subtitle && <p className="reviews-text-color">{subtitle}</p>}
