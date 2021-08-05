@@ -20,10 +20,10 @@ export default function Action(props) {
     if (newWindow || noFollow) {
         attrs.rel = [(newWindow ? 'noopener' : '') + (noFollow ? 'nofollow' : '')].join(' ');
     }
-    const backgroundColor = _.get(action, 'backgroundColor');
-    const borderColor = _.get(action, 'borderColor');
-    const borderRadius = _.get(action, 'borderRadius');
-    const textColor = _.get(action, 'textColor');
+    let backgroundColor = _.get(action, 'backgroundColor');
+    let borderColor = _.get(action, 'borderColor');
+    let borderRadius = _.get(action, 'borderRadius');
+    let textColor = _.get(action, 'textColor');
     let paddingVertical = _.get(action, 'paddingVertical');
     let paddingHorizontal = _.get(action, 'paddingHorizontal');
 
