@@ -14,12 +14,12 @@ export default function SectionCta(props) {
     const textColor = _.get(section, 'textColor');
 
     return (
-        <section id={sectionId} className="block cta-block outer cta-background-color">
+        <section id={sectionId} className="block cta-block outer" style>
             <div className="inner-large">
                 <div className="grid">
                     <div className="cell block-content">
-                        {title && <h2 className="block-title cta-title-color">{title}</h2>}
-                        {subtitle && <p className="block-copy cta-text-color">{subtitle}</p>}
+                        {title && <h2 className="block-title">{title}</h2>}
+                        {subtitle && <p className="block-copy">{subtitle}</p>}
                     </div>
                     {actions && (
                         <div className="cell block-buttons">
