@@ -31,8 +31,10 @@ export default function Action(props) {
     if (paddingHorizontal === undefined) { paddingHorizontal = "1.875em" }
 
     if(/[a-z]/i.test(paddingHorizontal)) {
+        paddingHorizontal
+    } else {
         paddingHorizontal += "em";
-    } 
+    }
     
     return (
         <Link
