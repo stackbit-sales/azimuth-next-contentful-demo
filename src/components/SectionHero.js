@@ -17,7 +17,10 @@ export default function SectionHero(props) {
     const subtitleColor = _.get(section, 'subtitleColor');
     const backgroundColorLeft = _.get(section, 'backgroundColorLeft');
     const backgroundColorRight = _.get(section, 'backgroundColorRight');
-    const swapOrder = _.get(section, 'swapOrder');
+    let imagePosition = _.get(section, 'imagePosition');
+    if (imagePosition === "left") {
+        
+    }
 
 
     return (
@@ -25,7 +28,7 @@ export default function SectionHero(props) {
             <div className="inner">
                 <div className="grid order-container">
                     {image && (
-                        <div className="cell block-preview" style={}>
+                        <div className="cell block-preview" style={order: imagePosition}>
                             <img src={withPrefix(image)} alt={imageAlt} />
                         </div>
                     )}
