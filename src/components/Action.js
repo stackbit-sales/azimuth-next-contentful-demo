@@ -58,7 +58,7 @@ export default function Action(props) {
     if(/[a-z]/i.test(borderRadius)) {
         borderRadius
     } else {
-        borderRadius += borderRadius;
+        borderRadius += "px";
     }
     if(/[#]/i.test(textColor)) {
         textColor
