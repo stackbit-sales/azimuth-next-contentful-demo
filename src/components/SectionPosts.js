@@ -41,9 +41,9 @@ function RecentPost(post) {
     const thumbImageAlt = _.get(post, 'thumb_image_alt');
     const excerpt = _.get(post, 'excerpt');
     const backgroundColor = _.get(post, 'backgroundColor');
-    const titleColor = _.get(post, 'titleColor');
-    const textColor = _.get(post, 'textColor');
-    const subTextColor = _.get(post, 'subTextColor');
+    let titleColor = _.get(post, 'titleColor');
+    let textColor = _.get(post, 'textColor');
+    let subTextColor = _.get(post, 'subTextColor');
     
     return (
         <article className="cell post">
