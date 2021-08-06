@@ -35,7 +35,7 @@ export default function SectionHero(props) {
     
 
     return (
-        <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`, flexDirection: stackedOrFlat}}>
+        <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`, flexDirection: column !important}}>
             <div className="inner">
                 <div className="grid order-container">
                     {image && (
