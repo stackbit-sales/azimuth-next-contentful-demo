@@ -33,7 +33,7 @@ export default function SectionHero(props) {
         stackedOrFlat = "column";
     }
 
-    if (displayHeroImage === "flat") {
+    if (displayHeroImage === "yes") {
         displayHeroImage = "row";
     } else {
         displayHeroImage = "column";
