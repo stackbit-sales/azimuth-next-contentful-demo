@@ -54,7 +54,7 @@ export default function SectionHero(props) {
     if (textBlockWidth === "normal") {
         textBlockWidth = "41.666%";
     } else if (textBlockWidth === "medium") {
-        textBlockWidth = "flex-end";
+        textBlockWidth = "";
     } else if (textBlockWidth === "full") {
         textBlockWidth = "100%";
     }
