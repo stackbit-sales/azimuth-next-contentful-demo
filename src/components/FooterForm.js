@@ -13,11 +13,11 @@ export default function FooterForm(props) {
     const formAction = _.get(section, 'form_action');
     const formFields = _.get(section, 'form_fields');
     const submitLabel = _.get(section, 'submit_label');
-    const titleColor = _.get(section, 'titleColor');
-    const textColor = _.get(section, 'textColor');
-    const buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
-    const buttonBorderColor = _.get(section, 'buttonBorderColor');
-    const buttonTextColor = _.get(section, 'buttonTextColor');
+    let titleColor = _.get(section, 'titleColor');
+    let textColor = _.get(section, 'textColor');
+    let buttonBackgroundColor = _.get(section, 'buttonBackgroundColor');
+    let buttonBorderColor = _.get(section, 'buttonBorderColor');
+    let buttonTextColor = _.get(section, 'buttonTextColor');
     let buttonBorderRadius = _.get(section, 'buttonBorderRadius');
     let paddingVertical = _.get(section, 'paddingVertical');
     let paddingHorizontal = _.get(section, 'paddingHorizontal');
