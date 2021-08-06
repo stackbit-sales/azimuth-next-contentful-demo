@@ -57,7 +57,7 @@ export default class Header extends React.Component {
                                 <span className="icon-close" aria-hidden="true" />
                             </button>
                         </div>
-                        <div style={{order: 1}}>
+                        <div style={{backgroundColor: lightblue}}>
                             <ul className="menu">
                                 {_.map(navLinks, (action, actionIdx) => {
                                     const actionUrl = _.trim(_.get(action, 'url'), '/');
