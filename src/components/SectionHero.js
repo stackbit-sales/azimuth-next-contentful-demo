@@ -31,7 +31,7 @@ export default function SectionHero(props) {
     } else {
         stackedOrFlat = "column";
     }
-    console.log(stackedOrFlat);
+    console.log('stackedOrFlat', stackedOrFlat);
     
 
     return (
