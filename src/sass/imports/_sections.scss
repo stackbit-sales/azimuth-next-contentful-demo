@@ -616,8 +616,7 @@
 }
 
 .order-container {
-    // display: flex;
     display: flex;
     background-color: coral;
-    flex-direction: column !important;
+    flex-direction: column;
 }
