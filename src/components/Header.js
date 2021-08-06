@@ -58,23 +58,23 @@ export default class Header extends React.Component {
                             </button>
                         </div>
                         <div>
-                        <ul className="menu">
-                            {_.map(navLinks, (action, actionIdx) => {
-                                const actionUrl = _.trim(_.get(action, 'url'), '/');
-                                const actionStyle = _.get(action, 'style', 'link');
-                                return (
-                                    <li
-                                        key={actionIdx}
-                                        className={classNames('menu-item', {
-                                            'current-menu-item': currentPageUrl === actionUrl,
-                                            'menu-button': actionStyle !== 'link'
-                                        })}
-                                    >
-                                        <Action action={action} />
-                                    </li>
-                                );
-                            })}
-                        </ul>
+                            <ul className="menu">
+                                {_.map(navLinks, (action, actionIdx) => {
+                                    const actionUrl = _.trim(_.get(action, 'url'), '/');
+                                    const actionStyle = _.get(action, 'style', 'link');
+                                    return (
+                                        <li
+                                            key={actionIdx}
+                                            className={classNames('menu-item', {
+                                                'current-menu-item': currentPageUrl === actionUrl,
+                                                'menu-button': actionStyle !== 'link'
+                                            })}
+                                        >
+                                            <Action action={action} />
+                                        </li>
+                                    );
+                                })}
+                            </ul>
                         </div>
                     </div>
                 </nav>
