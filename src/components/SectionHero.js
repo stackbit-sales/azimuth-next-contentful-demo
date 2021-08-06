@@ -51,7 +51,7 @@ export default function SectionHero(props) {
                             <img src={withPrefix(image)} alt={imageAlt} />
                         </div>
                     )}
-                    <div className="cell block-content order-content">
+                    <div className="cell block-content order-content" style={{justifyContent: `center`}}>
                         {title && <h2 className="block-title underline" style={{color: titleColor}}>{title}</h2>}
                         {content && (
                             <div style={{color: subtitleColor}}>
