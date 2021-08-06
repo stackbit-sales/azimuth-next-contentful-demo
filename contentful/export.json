@@ -345,7 +345,7 @@
         "id": "header",
         "type": "ContentType",
         "createdAt": "2021-08-02T16:18:21.549Z",
-        "updatedAt": "2021-08-05T22:12:56.991Z",
+        "updatedAt": "2021-08-06T13:47:21.875Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -353,8 +353,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2021-08-05T22:12:56.991Z",
+        "publishedVersion": 25,
+        "publishedAt": "2021-08-06T13:47:21.875Z",
         "firstPublishedAt": "2021-08-02T16:18:28.454Z",
         "createdBy": {
           "sys": {
@@ -370,8 +370,8 @@
             "id": "0kBqYmo88dYlNZrVsrlLj3"
           }
         },
-        "publishedCounter": 3,
-        "version": 6,
+        "publishedCounter": 13,
+        "version": 26,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -463,12 +463,52 @@
           "omitted": false
         },
         {
-          "id": "navBarTextColorActive",
-          "name": "Nav Bar Text Color Active (ex. #FFFFFF or white)",
+          "id": "navLinksOrder",
+          "name": "Nav Links Order",
           "type": "Symbol",
           "localized": false,
           "required": false,
           "validations": [
+            {
+              "in": [
+                "left to right",
+                "right to left"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "navLinksPosition",
+          "name": "Nav Links Alignment",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "right",
+                "left"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "logoPosition",
+          "name": "Logo Position",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "left",
+                "right"
+              ]
+            }
           ],
           "disabled": false,
           "omitted": false
@@ -3863,7 +3903,7 @@
         "id": "section_hero",
         "type": "ContentType",
         "createdAt": "2021-08-02T16:18:24.550Z",
-        "updatedAt": "2021-08-06T00:24:31.479Z",
+        "updatedAt": "2021-08-06T12:42:41.500Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3871,8 +3911,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 31,
-        "publishedAt": "2021-08-06T00:24:31.479Z",
+        "publishedVersion": 45,
+        "publishedAt": "2021-08-06T12:42:41.500Z",
         "firstPublishedAt": "2021-08-02T16:18:32.764Z",
         "createdBy": {
           "sys": {
@@ -3888,8 +3928,8 @@
             "id": "0kBqYmo88dYlNZrVsrlLj3"
           }
         },
-        "publishedCounter": 16,
-        "version": 32,
+        "publishedCounter": 23,
+        "version": 46,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4052,6 +4092,89 @@
               "in": [
                 "stacked",
                 "flat"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "displayHeroImage",
+          "name": "Display Hero Image?",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "yes",
+                "no"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "textAlign",
+          "name": "Text Alignment",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "left",
+                "center",
+                "right"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonAlignment",
+          "name": "Button Alignment",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "left",
+                "center",
+                "right"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "backgroundImage",
+          "name": "Background Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "textBlockWidth",
+          "name": "Text Block Width",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "normal",
+                "medium",
+                "full"
               ]
             }
           ],
@@ -4436,7 +4559,7 @@
             "linkType": "Space"
           }
         },
-        "version": 6,
+        "version": 26,
         "createdAt": "2021-08-02T16:18:28.607Z",
         "createdBy": {
           "sys": {
@@ -4445,7 +4568,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-08-05T22:12:57.418Z",
+        "updatedAt": "2021-08-06T13:47:22.435Z",
         "updatedBy": {
           "sys": {
             "id": "0kBqYmo88dYlNZrVsrlLj3",
@@ -4515,8 +4638,18 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "navBarTextColorActive",
-          "widgetId": "singleLine",
+          "fieldId": "navLinksOrder",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "navLinksPosition",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "logoPosition",
+          "widgetId": "dropdown",
           "widgetNamespace": "builtin"
         }
       ]
@@ -6710,7 +6843,7 @@
             "linkType": "Space"
           }
         },
-        "version": 32,
+        "version": 46,
         "createdAt": "2021-08-02T16:18:32.866Z",
         "createdBy": {
           "sys": {
@@ -6719,7 +6852,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-08-06T00:24:32.155Z",
+        "updatedAt": "2021-08-06T12:42:42.030Z",
         "updatedBy": {
           "sys": {
             "id": "0kBqYmo88dYlNZrVsrlLj3",
@@ -6815,6 +6948,31 @@
         },
         {
           "fieldId": "stackedOrFlat",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "displayHeroImage",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "textAlign",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonAlignment",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "backgroundImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "textBlockWidth",
           "widgetId": "dropdown",
           "widgetNamespace": "builtin"
         }
@@ -10450,7 +10608,7 @@
         "id": "1JYeZxkfKgp9kfscTiBnE6",
         "type": "Entry",
         "createdAt": "2021-08-02T16:19:29.707Z",
-        "updatedAt": "2021-08-06T00:24:56.884Z",
+        "updatedAt": "2021-08-06T12:47:11.644Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -10476,7 +10634,7 @@
           }
         },
         "publishedCounter": 2,
-        "version": 87,
+        "version": 112,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -10549,6 +10707,18 @@
         },
         "stackedOrFlat": {
           "en-US": "flat"
+        },
+        "displayHeroImage": {
+          "en-US": "yes"
+        },
+        "textAlign": {
+          "en-US": "left"
+        },
+        "buttonAlignment": {
+          "en-US": "left"
+        },
+        "textBlockWidth": {
+          "en-US": "full"
         }
       }
     },
@@ -17070,7 +17240,7 @@
         "id": "6WVokgnzo3G3WrnTC9pqvW",
         "type": "Entry",
         "createdAt": "2021-08-02T16:19:42.640Z",
-        "updatedAt": "2021-08-03T15:15:15.184Z",
+        "updatedAt": "2021-08-06T13:47:12.917Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -17096,7 +17266,7 @@
           }
         },
         "publishedCounter": 2,
-        "version": 12,
+        "version": 40,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -17168,13 +17338,19 @@
           ]
         },
         "navBarBackgroundColor": {
-          "en-US": "#fff"
+          "en-US": "#FFFFFF"
         },
         "navBarTextColor": {
           "en-US": "#334155"
         },
-        "navBarTextColorActive": {
-          "en-US": "#0284C7"
+        "navLinksOrder": {
+          "en-US": "left to right"
+        },
+        "logoPosition": {
+          "en-US": "left"
+        },
+        "navLinksPosition": {
+          "en-US": "right"
         }
       }
     },
@@ -30699,6 +30875,77 @@
             },
             "fileName": "review3.jpg",
             "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "3whyy7c05qmv"
+          }
+        },
+        "id": "5U8rnLIs3kv60RRUSjz3SA",
+        "type": "Asset",
+        "createdAt": "2021-08-06T12:28:56.177Z",
+        "updatedAt": "2021-08-06T12:28:59.699Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-08-06T12:28:59.699Z",
+        "firstPublishedAt": "2021-08-06T12:28:59.699Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0kBqYmo88dYlNZrVsrlLj3"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0kBqYmo88dYlNZrVsrlLj3"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0kBqYmo88dYlNZrVsrlLj3"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Screen Shot 2021-08-06 at 6.28.45 AM.png"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/3whyy7c05qmv/5U8rnLIs3kv60RRUSjz3SA/92c896d0d2bd4909e45c783b6416dfd1/Screen_Shot_2021-08-06_at_6.28.45_AM.png",
+            "details": {
+              "size": 107814,
+              "image": {
+                "width": 651,
+                "height": 387
+              }
+            },
+            "fileName": "Screen Shot 2021-08-06 at 6.28.45 AM.png",
+            "contentType": "image/png"
           }
         }
       }
