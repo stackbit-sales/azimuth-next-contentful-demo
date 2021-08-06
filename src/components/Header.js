@@ -115,7 +115,8 @@ export default class Header extends React.Component {
             navLinksPositionRight = "auto";
             navLinksPositionLeft = "";
         } else {
-            navLinksPositionRight = "auto";
+            navLinksPositionRight = "";
+            navLinksPositionLeft = "auto";
         }
 
         return (
