@@ -7,8 +7,8 @@ export default function FooterNav(props) {
     const section = _.get(props, 'section');
     const title = _.get(section, 'title');
     const navLinks = _.get(section, 'nav_links');
-    const titleColor = _.get(section, 'titleColor');
-    const textColor = _.get(section, 'textColor');
+    let titleColor = _.get(section, 'titleColor');
+    let textColor = _.get(section, 'textColor');
 
     return (
         <section className="cell widget widget-nav">

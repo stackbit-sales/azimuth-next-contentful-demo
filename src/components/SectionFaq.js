@@ -24,9 +24,9 @@ export default class SectionFaq extends React.Component {
         const title = _.get(section, 'title');
         const subtitle = _.get(section, 'subtitle');
         const faqItems = _.get(section, 'faq_items');
-        const backgroundColor = _.get(section, 'backgroundColor');
-        const titleColor = _.get(section, 'titleColor');
-        const textColor = _.get(section, 'textColor');
+        let backgroundColor = _.get(section, 'backgroundColor');
+        let titleColor = _.get(section, 'titleColor');
+        let textColor = _.get(section, 'textColor');
         
         
         return (
@@ -52,10 +52,10 @@ export default class SectionFaq extends React.Component {
 function FaqItem(faqItem) {
     const question = _.get(faqItem, 'question');
     const answer = _.get(faqItem, 'answer');
-    const backgroundColor = _.get(faqItem, 'backgroundColor');
-    const titleColor = _.get(faqItem, 'titleColor');
-    const iconColor = _.get(faqItem, 'iconColor');
-    const iconBackgroundColor = _.get(faqItem, 'iconBackgroundColor');
+    let backgroundColor = _.get(faqItem, 'backgroundColor');
+    let titleColor = _.get(faqItem, 'titleColor');
+    let iconColor = _.get(faqItem, 'iconColor');
+    let iconBackgroundColor = _.get(faqItem, 'iconBackgroundColor');
     let borderRadius = _.get(faqItem, 'borderRadius');
     
     if(/[a-z]/i.test(borderRadius)) {

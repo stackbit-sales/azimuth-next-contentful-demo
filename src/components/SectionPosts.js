@@ -13,9 +13,9 @@ export default function SectionPosts(props) {
     const sectionId = _.get(section, 'section_id');
     const title = _.get(section, 'title');
     const subtitle = _.get(section, 'subtitle');
-    const backgroundColor = _.get(section, 'backgroundColor');
-    const titleColor = _.get(section, 'titleColor');
-    const textColor = _.get(section, 'textColor');    
+    let backgroundColor = _.get(section, 'backgroundColor');
+    let titleColor = _.get(section, 'titleColor');
+    let textColor = _.get(section, 'textColor');    
 
     return (
         <section id={sectionId} className={`block posts-block outer`} style={{backgroundColor: backgroundColor}}>
@@ -41,9 +41,9 @@ function RecentPost(post) {
     const thumbImageAlt = _.get(post, 'thumb_image_alt');
     const excerpt = _.get(post, 'excerpt');
     const backgroundColor = _.get(post, 'backgroundColor');
-    const titleColor = _.get(post, 'titleColor');
-    const textColor = _.get(post, 'textColor');
-    const subTextColor = _.get(post, 'subTextColor');
+    let titleColor = _.get(post, 'titleColor');
+    let textColor = _.get(post, 'textColor');
+    let subTextColor = _.get(post, 'subTextColor');
     
     return (
         <article className="cell post">

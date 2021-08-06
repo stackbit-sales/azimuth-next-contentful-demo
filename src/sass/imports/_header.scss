@@ -14,6 +14,7 @@
   align-items: center;
   display: -ms-flexbox;
   display: flex;
+//   justify-content: space-between;
 }
 
 .site-branding {
@@ -75,7 +76,9 @@
   }
 
   .site-navigation {
-    margin-left: auto;
+    // margin-left: auto;
+    // margin: auto;
+    // margin-right: auto;
 
     .menu-item {
       display: inline-block;
@@ -208,6 +211,7 @@
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     position: relative;
+    display: flex;
   }
 
   .menu--opened {

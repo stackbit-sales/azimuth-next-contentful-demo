@@ -13,13 +13,18 @@ export default function SectionHero(props) {
     const title = _.get(section, 'title');
     const content = _.get(section, 'content');
     const actions = _.get(section, 'actions');
-    const titleColor = _.get(section, 'titleColor');
-    const subtitleColor = _.get(section, 'subtitleColor');
-    const backgroundColorLeft = _.get(section, 'backgroundColorLeft');
-    const backgroundColorRight = _.get(section, 'backgroundColorRight');
+    let titleColor = _.get(section, 'titleColor');
+    let subtitleColor = _.get(section, 'subtitleColor');
+    let backgroundColorLeft = _.get(section, 'backgroundColorLeft');
+    let backgroundColorRight = _.get(section, 'backgroundColorRight');
     let imagePosition = _.get(section, 'imagePosition');
     let stackedOrFlat = _.get(section, 'stackedOrFlat');
-    
+    let displayHeroImage = _.get(section, 'displayHeroImage');
+    let textAlign = _.get(section, 'textAlign');
+    let buttonAlignment = _.get(section, 'buttonAlignment');
+    let backgroundImage = _.get(section, 'backgroundImage');
+    let textBlockWidth = _.get(section, 'textBlockWidth');
+
     if (imagePosition === "left (or top)") {
         imagePosition = 0;
     } else {
@@ -31,27 +36,47 @@ export default function SectionHero(props) {
     } else {
         stackedOrFlat = "column";
     }
-    console.log('stackedOrFlat', stackedOrFlat);
-    
 
+    if (displayHeroImage === "yes") {
+        displayHeroImage = "";
+    } else {
+        displayHeroImage = "none";
+    }
+
+    if (buttonAlignment === "left") {
+        buttonAlignment = "flex-start";
+    } else if (buttonAlignment === "right") {
+        buttonAlignment = "flex-end";
+    } else if (buttonAlignment === "center") {
+        buttonAlignment = "center";
+    }
+
+    if (textBlockWidth === "normal") {
+        textBlockWidth = "41.666%";
+    } else if (textBlockWidth === "medium") {
+        textBlockWidth = "71%";
+    } else if (textBlockWidth === "full") {
+        textBlockWidth = "100%";
+    }
+    
     return (
-        <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`}}>
+        <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`, backgroundImage: `url(${backgroundImage}`, backgroundSize: `cover`, backgroundRepeat: `no-repeat`, backgroundPosition:`center`}}>
             <div className="inner">
                 <div className="grid order-container" style={{flexDirection: stackedOrFlat}}>
                     {image && (
-                        <div className="cell block-preview" style={{order: imagePosition}}>
+                        <div className="cell block-preview" style={{order: imagePosition, display: displayHeroImage}}>
                             <img src={withPrefix(image)} alt={imageAlt} />
                         </div>
                     )}
-                    <div className="cell block-content order-content">
-                        {title && <h2 className="block-title underline" style={{color: titleColor}}>{title}</h2>}
+                    <div className="cell block-content order-content" style={{textAlign: textAlign, maxWidth: textBlockWidth}}>
+                        {title && <h2 className="block-title" style={{color: titleColor}}>{title}</h2>}
                         {content && (
                             <div style={{color: subtitleColor}}>
                                 <ReactMarkdown>{content}</ReactMarkdown>
                             </div>
                         )}
                         {actions && (
-                            <div className="block-buttons">
+                            <div className="block-buttons" style={{justifyContent: buttonAlignment}}>
                                 <CtaButtons actions={actions} />
                             </div>
                         )}

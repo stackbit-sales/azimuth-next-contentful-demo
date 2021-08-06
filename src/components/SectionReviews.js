@@ -10,9 +10,9 @@ export default function SectionReviews(props) {
     const title = _.get(section, 'title');
     const subtitle = _.get(section, 'subtitle');
     const reviews = _.get(section, 'reviews');
-    const backgroundColor = _.get(section, 'backgroundColor');
-    const titleColor = _.get(section, 'titleColor');
-    const textColor = _.get(section, 'textColor');
+    let backgroundColor = _.get(section, 'backgroundColor');
+    let titleColor = _.get(section, 'titleColor');
+    let textColor = _.get(section, 'textColor');
 
     return (
         <section id={sectionId} className={`block reviews-block outer`} style={{backgroundColor: backgroundColor}}>
@@ -38,9 +38,9 @@ function ReviewItem(review) {
     const avatar = _.get(review, 'avatar');
     const avatarAlt = _.get(review, 'avatar_alt');
     const author = _.get(review, 'author');
-    const backgroundColor = _.get(review, 'backgroundColor');
-    const titleColor = _.get(review, 'titleColor');
-    const textColor = _.get(review, 'textColor');
+    let backgroundColor = _.get(review, 'backgroundColor');
+    let titleColor = _.get(review, 'titleColor');
+    let textColor = _.get(review, 'textColor');
 
     return (
         <blockquote className="cell review">
