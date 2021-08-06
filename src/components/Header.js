@@ -111,6 +111,12 @@ export default class Header extends React.Component {
             logoPosition = 1;
         }
 
+        if (navLinksPosition === "left") {
+            navLinksPosition = 0;
+        } else {
+            navLinksPosition = 1;
+        }
+
         return (
             <header id="masthead" className="site-header outer" style={{backgroundColor: navBarBackgroundColor}}>
                 <div className="inner">
