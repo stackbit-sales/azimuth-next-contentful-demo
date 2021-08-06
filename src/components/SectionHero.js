@@ -31,7 +31,8 @@ export default function SectionHero(props) {
     } else {
         stackedOrFlat = "column";
     }
-
+    console.log(stackedOrFlat);
+    
 
     return (
         <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`, flexDirection: stackedOrFlat}}>
