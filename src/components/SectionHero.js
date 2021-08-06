@@ -37,12 +37,12 @@ export default function SectionHero(props) {
         stackedOrFlat = "column";
     }
     
-    if (backgroundColorLeft === "left (or top)") {
-        backgroundColorLeft = 0;
+    if (backgroundColorLeft === "lorem-ipsum") {
+        backgroundColorLeft = "white";
     }
 
-    if (backgroundColorRight === "flat") {
-        backgroundColorRight = "row";
+    if (backgroundColorRight === "lorem-ipsum") {
+        backgroundColorRight = "white";
     }
 
     if (displayHeroImage === "yes") {
