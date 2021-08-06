@@ -107,7 +107,7 @@ export default class Header extends React.Component {
             <header id="masthead" className="site-header outer" style={{backgroundColor: navBarBackgroundColor}}>
                 <div className="inner">
                     <div className="site-header-inside">
-                        <div className="site-branding" style={{order: 1}}>
+                        <div className="site-branding" style={{order: 0}}>
                             {logoImage && (
                                 <p className="site-logo">
                                     <Link href={withPrefix('/')}>
