@@ -49,7 +49,7 @@ export default class Header extends React.Component {
     renderNavLinks(navLinks, currentPageUrl) {
         return (
             <React.Fragment>
-                <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
+                <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation" style={backgroundColor: `coral`}>
                     <div className="site-nav-inside">
                         <button id="menu-close" className="menu-toggle" onClick={this.handleMenuClose.bind(this)}>
                             <span className="screen-reader-text">Open Menu</span>
