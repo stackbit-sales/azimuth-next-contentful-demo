@@ -55,7 +55,7 @@ export default class Header extends React.Component {
                             <span className="screen-reader-text">Open Menu</span>
                             <span className="icon-close" aria-hidden="true" />
                         </button>
-                            <ul className="menu" style={{flexDirection: `flex-column-reverse`}}>
+                            <ul className="menu" style={{display: `flex`, flexDirection: `flex-column-reverse`}}>
                                 {_.map(navLinks, (action, actionIdx) => {
                                     const actionUrl = _.trim(_.get(action, 'url'), '/');
                                     const actionStyle = _.get(action, 'style', 'link');
