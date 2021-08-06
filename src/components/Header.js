@@ -51,13 +51,13 @@ export default class Header extends React.Component {
             <React.Fragment>
                 <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation" style={{color: navBarTextColor}}>
                     <div className="site-nav-inside">
-                        <div style={{order: 0}}>
+                        <div >
                             <button id="menu-close" className="menu-toggle" onClick={this.handleMenuClose.bind(this)}>
                                 <span className="screen-reader-text">Open Menu</span>
                                 <span className="icon-close" aria-hidden="true" />
                             </button>
                         </div>
-                        <div>
+                        <div style={{order: 0}}>
                             <ul className="menu">
                                 {_.map(navLinks, (action, actionIdx) => {
                                     const actionUrl = _.trim(_.get(action, 'url'), '/');
