@@ -26,7 +26,7 @@ export default function SectionHero(props) {
         imagePosition = 0;
     }
 
-    if (stackedOrFlat === "left (or bottom)") {
+    if (stackedOrFlat === "flat") {
         stackedOrFlat = 1;
     } else {
         stackedOrFlat = 0;
