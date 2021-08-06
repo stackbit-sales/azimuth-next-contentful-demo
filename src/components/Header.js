@@ -122,13 +122,6 @@ export default class Header extends React.Component {
                         {!hideNavLinks && !_.isEmpty(navLinks) && this.renderNavLinks(navLinks, currentPageUrl)}
                     </div>
                 </div>
-                <style global jsx>{`
-                    :root {
-                        --nav-bar-background-color: ${navBarBackgroundColor};
-                        --nav-bar-text-color: ${navBarTextColor};
-                        --nav-bar-text-color-active: ${navBarTextColorActive};
-                    };
-                `}</style>
             </header>
         );
     }
