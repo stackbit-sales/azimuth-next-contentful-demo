@@ -51,12 +51,12 @@ export default function SectionHero(props) {
         buttonAlignment = "center";
     }
 
-    if (buttonAlignment === "left") {
-        buttonAlignment = "flex-start";
-    } else if (buttonAlignment === "right") {
-        buttonAlignment = "flex-end";
-    } else if (buttonAlignment === "center") {
-        buttonAlignment = "center";
+    if (textBlockWidth === "left") {
+        textBlockWidth = "flex-start";
+    } else if (textBlockWidth === "right") {
+        textBlockWidth = "flex-end";
+    } else if (textBlockWidth === "center") {
+        textBlockWidth = "center";
     }
     
     return (
