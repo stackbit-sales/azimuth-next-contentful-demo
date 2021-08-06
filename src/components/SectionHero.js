@@ -21,7 +21,7 @@ export default function SectionHero(props) {
     let stackedOrFlat = _.get(section, 'stackedOrFlat');
     let displayHeroImage = _.get(section, 'displayHeroImage');
     let textAlign = _.get(section, 'textAlign');
-    let textAlign = _.get(section, 'textAlign');
+    let buttonAlignment = _.get(section, 'buttonAlignment');
     
     
     if (imagePosition === "left (or top)") {
