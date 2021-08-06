@@ -51,8 +51,8 @@ export default function SectionHero(props) {
         buttonAlignment = "center";
     }
 
-    if (textBlockWidth === "left") {
-        textBlockWidth = "flex-start";
+    if (textBlockWidth === "normal") {
+        textBlockWidth = "41.666%";
     } else if (textBlockWidth === "right") {
         textBlockWidth = "flex-end";
     } else if (textBlockWidth === "center") {
