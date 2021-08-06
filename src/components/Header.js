@@ -113,7 +113,7 @@ export default class Header extends React.Component {
             logoPosition = 1;
         }
 
-        if (navLinksPosition === "right") {
+        if (navLinksPosition === "left") {
             navLinksPositionRight = "auto";
             navLinksPositionLeft = "";
         } else {
