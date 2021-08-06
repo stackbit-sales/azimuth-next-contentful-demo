@@ -36,6 +36,18 @@ export default function SectionHero(props) {
     } else {
         stackedOrFlat = "column";
     }
+    
+    if (backgroundColorLeft === "left (or top)") {
+        backgroundColorLeft = 0;
+    } else {
+        backgroundColorLeft = 1;
+    }
+
+    if (backgroundColorRight === "flat") {
+        backgroundColorRight = "row";
+    } else {
+        backgroundColorRight = "column";
+    }
 
     if (displayHeroImage === "yes") {
         displayHeroImage = "";
