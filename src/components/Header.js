@@ -51,7 +51,7 @@ export default class Header extends React.Component {
             <React.Fragment>
                 <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation" style={{color: navBarTextColor}}>
                     <div className="site-nav-inside">
-                        <button id="menu-close" className="menu-toggle" onClick={this.handleMenuClose.bind(this)} style={{order: 1}}>
+                        <button id="menu-close" className="menu-toggle" onClick={this.handleMenuClose.bind(this)} style={{order: 0}}>
                             <span className="screen-reader-text">Open Menu</span>
                             <span className="icon-close" aria-hidden="true" />
                         </button>
