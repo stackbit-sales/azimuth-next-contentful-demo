@@ -12,9 +12,9 @@ export default function SectionPricing(props) {
     const title = _.get(section, 'title');
     const subtitle = _.get(section, 'subtitle');
     const pricingPlans = _.get(section, 'pricing_plans');
-    const backgroundColor = _.get(section, 'backgroundColor');
-    const titleColor = _.get(section, 'titleColor');
-    const textColor = _.get(section, 'textColor');
+    let backgroundColor = _.get(section, 'backgroundColor');
+    let titleColor = _.get(section, 'titleColor');
+    let textColor = _.get(section, 'textColor');
 
     return (
         <section id={sectionId} className={`block pricing-block outer`} style={{backgroundColor: backgroundColor}}>
