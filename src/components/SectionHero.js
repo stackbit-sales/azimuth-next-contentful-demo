@@ -34,9 +34,9 @@ export default function SectionHero(props) {
     }
 
     if (displayHeroImage === "yes") {
-        displayHeroImage = "row";
+        displayHeroImage = "";
     } else {
-        displayHeroImage = "column";
+        displayHeroImage = "none";
     }
     
     
