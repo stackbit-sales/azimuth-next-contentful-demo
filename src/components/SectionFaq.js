@@ -24,9 +24,9 @@ export default class SectionFaq extends React.Component {
         const title = _.get(section, 'title');
         const subtitle = _.get(section, 'subtitle');
         const faqItems = _.get(section, 'faq_items');
-        const backgroundColor = _.get(section, 'backgroundColor');
-        const titleColor = _.get(section, 'titleColor');
-        const textColor = _.get(section, 'textColor');
+        let backgroundColor = _.get(section, 'backgroundColor');
+        let titleColor = _.get(section, 'titleColor');
+        let textColor = _.get(section, 'textColor');
         
         
         return (
