@@ -19,6 +19,7 @@ export default function SectionHero(props) {
     const backgroundColorRight = _.get(section, 'backgroundColorRight');
     let imagePosition = _.get(section, 'imagePosition');
     let stackedOrFlat = _.get(section, 'stackedOrFlat');
+    let displayHeroImage = _.get(section, 'displayHeroImage');
     
     if (imagePosition === "left (or top)") {
         imagePosition = 0;
