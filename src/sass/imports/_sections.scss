@@ -92,7 +92,7 @@
       &:only-child {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
-        max-width: $container;
+        max-width: $container-md;
         text-align: center;
       }
     }
