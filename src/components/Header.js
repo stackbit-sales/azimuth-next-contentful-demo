@@ -119,7 +119,7 @@ export default class Header extends React.Component {
                                 </p>
                             )}
                         </div>
-                        {!hideNavLinks && !_.isEmpty(navLinks) && this.renderNavLinks(navLinks, currentPageUrl, navBarTextColor)}
+                        {!hideNavLinks && !_.isEmpty(navLinks) && this.renderNavLinks(navLinks, currentPageUrl, navBarTextColor, navBarTextColorActive)}
                     </div>
                 </div>
             </header>
