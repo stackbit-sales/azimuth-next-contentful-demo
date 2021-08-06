@@ -13,10 +13,10 @@ export default function SectionHero(props) {
     const title = _.get(section, 'title');
     const content = _.get(section, 'content');
     const actions = _.get(section, 'actions');
-    const titleColor = _.get(section, 'titleColor');
-    const subtitleColor = _.get(section, 'subtitleColor');
-    const backgroundColorLeft = _.get(section, 'backgroundColorLeft');
-    const backgroundColorRight = _.get(section, 'backgroundColorRight');
+    let titleColor = _.get(section, 'titleColor');
+    let subtitleColor = _.get(section, 'subtitleColor');
+    let backgroundColorLeft = _.get(section, 'backgroundColorLeft');
+    let backgroundColorRight = _.get(section, 'backgroundColorRight');
     let imagePosition = _.get(section, 'imagePosition');
     let stackedOrFlat = _.get(section, 'stackedOrFlat');
     let displayHeroImage = _.get(section, 'displayHeroImage');
