@@ -215,7 +215,7 @@
         "id": "faq_item",
         "type": "ContentType",
         "createdAt": "2021-08-02T16:18:21.011Z",
-        "updatedAt": "2021-08-05T22:02:37.049Z",
+        "updatedAt": "2021-08-05T23:56:54.263Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -223,8 +223,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 13,
-        "publishedAt": "2021-08-05T22:02:37.049Z",
+        "publishedVersion": 21,
+        "publishedAt": "2021-08-05T23:56:54.263Z",
         "firstPublishedAt": "2021-08-02T16:18:26.766Z",
         "createdBy": {
           "sys": {
@@ -240,8 +240,8 @@
             "id": "0kBqYmo88dYlNZrVsrlLj3"
           }
         },
-        "publishedCounter": 7,
-        "version": 14,
+        "publishedCounter": 11,
+        "version": 22,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -288,6 +288,17 @@
           "omitted": false
         },
         {
+          "id": "borderRadius",
+          "name": "Border Radius (ex. 25px)",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
           "id": "titleColor",
           "name": "Title Color (ex. #FFFFFF or white)",
           "type": "Symbol",
@@ -299,8 +310,8 @@
           "omitted": false
         },
         {
-          "id": "iconColor",
-          "name": "Icon Color (ex. #FFFFFF or white)",
+          "id": "iconBackgroundColor",
+          "name": "Icon Background Color (ex. #FFFFFF or white)",
           "type": "Symbol",
           "localized": false,
           "required": false,
@@ -310,8 +321,8 @@
           "omitted": false
         },
         {
-          "id": "iconBackgroundColor",
-          "name": "Icon Background Color",
+          "id": "iconColor",
+          "name": "Icon Color (ex. #FFFFFF or white)",
           "type": "Symbol",
           "localized": false,
           "required": false,
@@ -476,7 +487,7 @@
         "id": "footer_form",
         "type": "ContentType",
         "createdAt": "2021-08-02T16:18:21.550Z",
-        "updatedAt": "2021-08-05T22:04:27.147Z",
+        "updatedAt": "2021-08-05T23:36:13.118Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -484,8 +495,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2021-08-05T22:04:27.147Z",
+        "publishedVersion": 11,
+        "publishedAt": "2021-08-05T23:36:13.118Z",
         "firstPublishedAt": "2021-08-02T16:18:27.952Z",
         "createdBy": {
           "sys": {
@@ -501,8 +512,8 @@
             "id": "0kBqYmo88dYlNZrVsrlLj3"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 6,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -661,6 +672,28 @@
         {
           "id": "buttonBorderRadius",
           "name": "Button Border Radius (ex. 25px)",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "paddingVertical",
+          "name": "Padding Vertical (ex 0.75em)",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "paddingHorizontal",
+          "name": "Padding Horizontal (ex. 1.875em)",
           "type": "Symbol",
           "localized": false,
           "required": false,
@@ -1715,7 +1748,7 @@
         "id": "section_contact",
         "type": "ContentType",
         "createdAt": "2021-08-02T16:18:22.557Z",
-        "updatedAt": "2021-08-05T22:07:21.552Z",
+        "updatedAt": "2021-08-05T23:31:17.447Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1723,8 +1756,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2021-08-05T22:07:21.552Z",
+        "publishedVersion": 13,
+        "publishedAt": "2021-08-05T23:31:17.447Z",
         "firstPublishedAt": "2021-08-02T16:18:29.951Z",
         "createdBy": {
           "sys": {
@@ -1740,8 +1773,8 @@
             "id": "0kBqYmo88dYlNZrVsrlLj3"
           }
         },
-        "publishedCounter": 6,
-        "version": 12,
+        "publishedCounter": 7,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1933,6 +1966,28 @@
         {
           "id": "buttonBorderRadius",
           "name": "Button Border Radius (ex. 25px)",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "paddingVertical",
+          "name": "Padding Vertical (ex 0.75em)",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "paddingHorizontal",
+          "name": "Padding Horizontal (ex. 1.875em)",
           "type": "Symbol",
           "localized": false,
           "required": false,
@@ -3808,7 +3863,7 @@
         "id": "section_hero",
         "type": "ContentType",
         "createdAt": "2021-08-02T16:18:24.550Z",
-        "updatedAt": "2021-08-05T22:10:00.375Z",
+        "updatedAt": "2021-08-06T00:24:31.479Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3816,8 +3871,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 25,
-        "publishedAt": "2021-08-05T22:10:00.375Z",
+        "publishedVersion": 31,
+        "publishedAt": "2021-08-06T00:24:31.479Z",
         "firstPublishedAt": "2021-08-02T16:18:32.764Z",
         "createdBy": {
           "sys": {
@@ -3833,8 +3888,8 @@
             "id": "0kBqYmo88dYlNZrVsrlLj3"
           }
         },
-        "publishedCounter": 13,
-        "version": 26,
+        "publishedCounter": 16,
+        "version": 32,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3978,8 +4033,25 @@
           "validations": [
             {
               "in": [
-                "left",
-                "right"
+                "right (or bottom)",
+                "left (or top)"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "stackedOrFlat",
+          "name": "Stacked or Flat?",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "stacked",
+                "flat"
               ]
             }
           ],
@@ -4283,7 +4355,7 @@
             "linkType": "Space"
           }
         },
-        "version": 14,
+        "version": 22,
         "createdAt": "2021-08-02T16:18:26.856Z",
         "createdBy": {
           "sys": {
@@ -4292,7 +4364,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-08-05T22:02:37.558Z",
+        "updatedAt": "2021-08-05T23:56:55.080Z",
         "updatedBy": {
           "sys": {
             "id": "0kBqYmo88dYlNZrVsrlLj3",
@@ -4332,17 +4404,22 @@
           "widgetNamespace": "builtin"
         },
         {
+          "fieldId": "borderRadius",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
           "fieldId": "titleColor",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "iconColor",
+          "fieldId": "iconBackgroundColor",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "iconBackgroundColor",
+          "fieldId": "iconColor",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         }
@@ -4455,7 +4532,7 @@
             "linkType": "Space"
           }
         },
-        "version": 10,
+        "version": 12,
         "createdAt": "2021-08-02T16:18:28.097Z",
         "createdBy": {
           "sys": {
@@ -4464,7 +4541,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-08-05T22:04:27.851Z",
+        "updatedAt": "2021-08-05T23:36:16.375Z",
         "updatedBy": {
           "sys": {
             "id": "0kBqYmo88dYlNZrVsrlLj3",
@@ -4565,6 +4642,16 @@
         },
         {
           "fieldId": "buttonBorderRadius",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "paddingVertical",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "paddingHorizontal",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         }
@@ -5267,7 +5354,7 @@
             "linkType": "Space"
           }
         },
-        "version": 12,
+        "version": 14,
         "createdAt": "2021-08-02T16:18:30.108Z",
         "createdBy": {
           "sys": {
@@ -5276,7 +5363,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-08-05T22:07:23.273Z",
+        "updatedAt": "2021-08-05T23:31:18.328Z",
         "updatedBy": {
           "sys": {
             "id": "0kBqYmo88dYlNZrVsrlLj3",
@@ -5398,6 +5485,16 @@
         },
         {
           "fieldId": "buttonBorderRadius",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "paddingVertical",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "paddingHorizontal",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         }
@@ -6613,7 +6710,7 @@
             "linkType": "Space"
           }
         },
-        "version": 26,
+        "version": 32,
         "createdAt": "2021-08-02T16:18:32.866Z",
         "createdBy": {
           "sys": {
@@ -6622,7 +6719,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-08-05T22:10:01.075Z",
+        "updatedAt": "2021-08-06T00:24:32.155Z",
         "updatedBy": {
           "sys": {
             "id": "0kBqYmo88dYlNZrVsrlLj3",
@@ -6713,6 +6810,11 @@
         },
         {
           "fieldId": "imagePosition",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "stackedOrFlat",
           "widgetId": "dropdown",
           "widgetNamespace": "builtin"
         }
@@ -10348,7 +10450,7 @@
         "id": "1JYeZxkfKgp9kfscTiBnE6",
         "type": "Entry",
         "createdAt": "2021-08-02T16:19:29.707Z",
-        "updatedAt": "2021-08-05T20:36:48.769Z",
+        "updatedAt": "2021-08-06T00:24:56.884Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -10374,7 +10476,7 @@
           }
         },
         "publishedCounter": 2,
-        "version": 62,
+        "version": 87,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -10443,7 +10545,10 @@
           "en-US": "#E0F2FE"
         },
         "imagePosition": {
-          "en-US": "right"
+          "en-US": "right (or bottom)"
+        },
+        "stackedOrFlat": {
+          "en-US": "flat"
         }
       }
     },
@@ -12794,7 +12899,7 @@
         "id": "xwcL8mRdgJZx6vxAIu2tN",
         "type": "Entry",
         "createdAt": "2021-08-02T16:19:34.637Z",
-        "updatedAt": "2021-08-05T21:49:17.397Z",
+        "updatedAt": "2021-08-05T23:39:14.228Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -12820,7 +12925,7 @@
           }
         },
         "publishedCounter": 2,
-        "version": 11,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -12853,6 +12958,9 @@
           "en-US": "#ffffff00"
         },
         "textColor": {
+          "en-US": ""
+        },
+        "borderRadius": {
           "en-US": ""
         },
         "paddingVertical": {
@@ -15081,7 +15189,7 @@
         "id": "3UFNS9DFKFATGo8EVcQHZt",
         "type": "Entry",
         "createdAt": "2021-08-02T16:19:39.649Z",
-        "updatedAt": "2021-08-05T21:38:21.592Z",
+        "updatedAt": "2021-08-05T23:39:36.504Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -15107,7 +15215,7 @@
           }
         },
         "publishedCounter": 2,
-        "version": 15,
+        "version": 16,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -15143,7 +15251,7 @@
           "en-US": "white"
         },
         "paddingVertical": {
-          "en-US": "0.75em"
+          "en-US": "0.5em"
         },
         "paddingHorizontal": {
           "en-US": "1.875em"
@@ -24562,7 +24670,7 @@
         "id": "74TqbH52jNgWbIDanpJ6hu",
         "type": "Entry",
         "createdAt": "2021-08-02T16:19:55.627Z",
-        "updatedAt": "2021-08-05T21:08:59.288Z",
+        "updatedAt": "2021-08-05T23:38:39.059Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -24588,7 +24696,7 @@
           }
         },
         "publishedCounter": 2,
-        "version": 34,
+        "version": 49,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -24648,6 +24756,12 @@
         },
         "buttonBorderRadius": {
           "en-US": "5px"
+        },
+        "paddingVertical": {
+          "en-US": ".5rem"
+        },
+        "paddingHorizontal": {
+          "en-US": "2.875em"
         }
       }
     },
@@ -26360,7 +26474,7 @@
         "id": "1wOprcbIvEmFa2GuOZly6h",
         "type": "Entry",
         "createdAt": "2021-08-02T20:59:41.565Z",
-        "updatedAt": "2021-08-05T21:05:13.439Z",
+        "updatedAt": "2021-08-05T23:40:27.773Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -26386,7 +26500,7 @@
           }
         },
         "publishedCounter": 1,
-        "version": 35,
+        "version": 45,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -26472,6 +26586,12 @@
         },
         "buttonBorderRadius": {
           "en-US": "5px"
+        },
+        "paddingVertical": {
+          "en-US": "0.5em"
+        },
+        "paddingHorizontal": {
+          "en-US": "3em"
         }
       }
     },
@@ -26491,7 +26611,7 @@
         "id": "7ln5KmNwYp0Mywiw52pwvs",
         "type": "Entry",
         "createdAt": "2021-08-02T21:02:25.150Z",
-        "updatedAt": "2021-08-03T15:15:10.862Z",
+        "updatedAt": "2021-08-05T23:52:29.730Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -26517,7 +26637,7 @@
           }
         },
         "publishedCounter": 1,
-        "version": 23,
+        "version": 26,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -26543,14 +26663,17 @@
         "backgroundColor": {
           "en-US": "#0284C7"
         },
+        "borderRadius": {
+          "en-US": "3px"
+        },
         "titleColor": {
+          "en-US": "#fff"
+        },
+        "iconBackgroundColor": {
           "en-US": "#fff"
         },
         "iconColor": {
           "en-US": "#0284C7"
-        },
-        "iconBackgroundColor": {
-          "en-US": "#fff"
         }
       }
     },
@@ -26570,7 +26693,7 @@
         "id": "1vKtT6ba1LFpT6KLRB6KX7",
         "type": "Entry",
         "createdAt": "2021-08-02T21:02:30.949Z",
-        "updatedAt": "2021-08-03T15:15:14.188Z",
+        "updatedAt": "2021-08-05T23:53:10.274Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -26596,7 +26719,7 @@
           }
         },
         "publishedCounter": 1,
-        "version": 14,
+        "version": 26,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -26622,14 +26745,17 @@
         "backgroundColor": {
           "en-US": "#0284C7"
         },
+        "borderRadius": {
+          "en-US": "3px"
+        },
         "titleColor": {
+          "en-US": "#fff"
+        },
+        "iconBackgroundColor": {
           "en-US": "#fff"
         },
         "iconColor": {
           "en-US": "#0284C7"
-        },
-        "iconBackgroundColor": {
-          "en-US": "#fff"
         }
       }
     },
