@@ -60,7 +60,7 @@ export default function SectionHero(props) {
                             </div>
                         )}
                         {actions && (
-                            <div className="block-buttons" style={{backgroundColor: `gold`, alignItems: `right`}}>
+                            <div className="block-buttons" style={{backgroundColor: `gold`, alignItems: `center`}}>
                                 <CtaButtons actions={actions} />
                             </div>
                         )}
