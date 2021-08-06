@@ -21,9 +21,9 @@ export default function SectionHero(props) {
     let stackedOrFlat = _.get(section, 'stackedOrFlat');
     
     if (imagePosition === "left (or bottom)") {
-        imagePosition = 1;
-    } else {
         imagePosition = 0;
+    } else {
+        imagePosition = 1;
     }
 
     if (stackedOrFlat === "flat") {
