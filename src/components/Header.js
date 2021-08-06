@@ -97,10 +97,10 @@ export default class Header extends React.Component {
         let navBarTextColor = _.get(header, 'navBarTextColor');
         let navLinksOrder = _.get(header, 'navLinksOrder');
 
-        if (navLinksOrder === "yes") {
+        if (navLinksOrder === "left to right") {
             navLinksOrder = "";
         } else {
-            navLinksOrder = "none";
+            navLinksOrder = "row-reverse";
         }
 
         return (
