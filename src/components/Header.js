@@ -50,7 +50,7 @@ export default class Header extends React.Component {
         return (
             <React.Fragment>
                 <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
-                    <div className="site-nav-inside">
+                    <div className="site-nav-inside"  style={{flexDirection: stackedOrFlat}}>
                         <button id="menu-close" className="menu-toggle" onClick={this.handleMenuClose.bind(this)}>
                             <span className="screen-reader-text">Open Menu</span>
                             <span className="icon-close" aria-hidden="true" />
