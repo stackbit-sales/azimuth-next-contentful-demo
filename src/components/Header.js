@@ -104,10 +104,10 @@ export default class Header extends React.Component {
             navLinksOrder = "row-reverse";
         }
 
-        if (logoPosition === "left (or top)") {
-            logoPosition = 0;
-        } else {
+        if (logoPosition === "left") {
             logoPosition = 1;
+        } else {
+            logoPosition = 0;
         }
 
         return (
