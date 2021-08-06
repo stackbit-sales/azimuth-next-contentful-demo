@@ -95,7 +95,7 @@ export default class Header extends React.Component {
         const pageTemplate = _.get(page, 'template');
         let navBarBackgroundColor = _.get(header, 'navBarBackgroundColor');
         let navBarTextColor = _.get(header, 'navBarTextColor');
-        let navBarTextColor = _.get(header, 'navBarTextColor');
+        let navLinksOrder = _.get(header, 'navLinksOrder');
 
         return (
             <header id="masthead" className="site-header outer" style={{backgroundColor: navBarBackgroundColor}}>
