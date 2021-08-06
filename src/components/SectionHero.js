@@ -23,7 +23,6 @@ export default function SectionHero(props) {
     let textAlign = _.get(section, 'textAlign');
     let buttonAlignment = _.get(section, 'buttonAlignment');
     let backgroundImage = _.get(section, 'backgroundImage');
-    // let backgroundImage = ""
 
     if (imagePosition === "left (or top)") {
         imagePosition = 0;
