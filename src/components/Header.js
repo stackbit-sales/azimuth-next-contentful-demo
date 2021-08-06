@@ -55,8 +55,8 @@ export default class Header extends React.Component {
                             <span className="screen-reader-text">Open Menu</span>
                             <span className="icon-close" aria-hidden="true" />
                         </button>
-                        <div style={{backgroundColor: `pink`}}>
-                            <ul className="menu">
+                        
+                            <ul className="menu" style={{flexDirection}}>
                                 {_.map(navLinks, (action, actionIdx) => {
                                     const actionUrl = _.trim(_.get(action, 'url'), '/');
                                     const actionStyle = _.get(action, 'style', 'link');
@@ -73,7 +73,7 @@ export default class Header extends React.Component {
                                     );
                                 })}
                             </ul>
-                        </div>
+                        
                     </div>
                 </nav>
                 <button id="menu-open" className="menu-toggle" ref={this.menuOpenRef} onClick={this.handleMenuOpen.bind(this)}>
