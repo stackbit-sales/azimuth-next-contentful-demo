@@ -22,7 +22,7 @@ export default function SectionHero(props) {
     let displayHeroImage = _.get(section, 'displayHeroImage');
     let textAlign = _.get(section, 'textAlign');
     let buttonAlignment = _.get(section, 'buttonAlignment');
-    let backgroundImage = "https://images.ctfassets.net/3whyy7c05qmv/2boc1gew59v7DFYMK3Z0zd/56eb0e5dd31be0beac752b47a019d843/feature1.png"
+    let backgroundImage = ""
 
     if (imagePosition === "left (or top)") {
         imagePosition = 0;
