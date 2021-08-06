@@ -112,7 +112,7 @@ export default class Header extends React.Component {
 
         return (
             <header id="masthead" className="site-header outer" style={{backgroundColor: navBarBackgroundColor}}>
-                <div className="" style={{justifyContent: `space-between`, backgroundColor: `pink`}}>
+                <div className="" style={{display: `flex`, justifyContent: `space-between`, backgroundColor: `pink`}}>
                     <div className="site-header-inside">
                         <div className="site-branding" style={{order: logoPosition}}>
                             {logoImage && (
