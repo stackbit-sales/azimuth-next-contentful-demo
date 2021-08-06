@@ -32,6 +32,12 @@ export default function SectionHero(props) {
     } else {
         stackedOrFlat = "column";
     }
+
+    if (stackedOrFlat === "flat") {
+        stackedOrFlat = "row";
+    } else {
+        stackedOrFlat = "column";
+    }
     
     
 
