@@ -105,9 +105,9 @@ export default class Header extends React.Component {
         }
 
         if (logoPosition === "left") {
-            logoPosition = 1;
-        } else {
             logoPosition = 0;
+        } else {
+            logoPosition = 1;
         }
 
         return (
