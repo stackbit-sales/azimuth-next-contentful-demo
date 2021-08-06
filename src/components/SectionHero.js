@@ -27,9 +27,9 @@ export default function SectionHero(props) {
     }
 
     if (stackedOrFlat === "flat") {
-        stackedOrFlat = "row";
+        stackedOrFlat = "row !important";
     } else {
-        stackedOrFlat = "column";
+        stackedOrFlat = "column !important";
     }
     console.log('stackedOrFlat', stackedOrFlat);
     
