@@ -32,7 +32,7 @@ export default function SectionHero(props) {
     } else {
         stackedOrFlat = "column";
     }
-    console.log('stackedOrFlat', stackedOrFlat);
+    
     
 
     return (
