@@ -50,13 +50,11 @@ export default class Header extends React.Component {
         return (
             <React.Fragment>
                 <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation" style={{color: navBarTextColor}}>
-                    <div className="site-nav-inside">
-                        <div >
-                            <button id="menu-close" className="menu-toggle" onClick={this.handleMenuClose.bind(this)}>
-                                <span className="screen-reader-text">Open Menu</span>
-                                <span className="icon-close" aria-hidden="true" />
-                            </button>
-                        </div>
+                    <div className="site-nav-inside">    
+                        <button id="menu-close" className="menu-toggle" onClick={this.handleMenuClose.bind(this)}>
+                            <span className="screen-reader-text">Open Menu</span>
+                            <span className="icon-close" aria-hidden="true" />
+                        </button>
                         <div style={{backgroundColor: `pink`}}>
                             <ul className="menu">
                                 {_.map(navLinks, (action, actionIdx) => {
