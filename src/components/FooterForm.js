@@ -79,16 +79,6 @@ export default function FooterForm(props) {
                     </div>
                 )}
             </form>
-            <style global jsx>{`
-                :root {
-                    --footer-form-title-color: ${titleColor};
-                    --footer-form-text-color: ${textColor};
-                    --submit-button-background-color: ${buttonBackgroundColor};
-                    --submit-button-border-color: ${buttonBorderColor};
-                    --submit-button-text-color: ${buttonTextColor};
-                    --submit-button-border-radius: ${buttonBorderRadius};
-                };
-            `}</style>
         </section>
     );
 }
