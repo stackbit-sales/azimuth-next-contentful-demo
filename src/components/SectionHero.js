@@ -50,6 +50,14 @@ export default function SectionHero(props) {
     } else if (buttonAlignment === "center") {
         buttonAlignment = "center";
     }
+
+    if (buttonAlignment === "left") {
+        buttonAlignment = "flex-start";
+    } else if (buttonAlignment === "right") {
+        buttonAlignment = "flex-end";
+    } else if (buttonAlignment === "center") {
+        buttonAlignment = "center";
+    }
     
     return (
         <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`, backgroundImage: `url(${backgroundImage}`, backgroundSize: `cover`, backgroundRepeat: `no-repeat`, backgroundPosition:`center`}}>
