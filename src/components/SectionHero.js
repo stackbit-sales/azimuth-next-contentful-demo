@@ -23,7 +23,6 @@ export default function SectionHero(props) {
     let textAlign = _.get(section, 'textAlign');
     let buttonAlignment = _.get(section, 'buttonAlignment');
     
-    
     if (imagePosition === "left (or top)") {
         imagePosition = 0;
     } else {
@@ -40,6 +39,12 @@ export default function SectionHero(props) {
         displayHeroImage = "";
     } else {
         displayHeroImage = "none";
+    }
+
+    if (buttonAlignment === "left") {
+        buttonAlignment = "flex-start";
+    } else if () {
+        buttonAlignment = "none";
     }
     
     
