@@ -98,6 +98,8 @@ export default class Header extends React.Component {
         let navLinksOrder = _.get(header, 'navLinksOrder');
         let logoPosition = _.get(header, 'logoPosition');
         let navLinksPosition = _.get(header, 'navLinksPosition');
+        let navLinksPositionRight;
+        let navLinksPositionLeft;
 
         if (navLinksOrder === "left to right") {
             navLinksOrder = "";
