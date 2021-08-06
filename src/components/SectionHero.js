@@ -26,6 +26,12 @@ export default function SectionHero(props) {
         imagePosition = 0;
     }
 
+    if (stackedOrFlat === "left (or bottom)") {
+        stackedOrFlat = 1;
+    } else {
+        stackedOrFlat = 0;
+    }
+
 
     return (
         <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`}}>
