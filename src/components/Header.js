@@ -46,7 +46,7 @@ export default class Header extends React.Component {
         document.body.classList.remove('menu--opened');
     }
 
-    renderNavLinks(navLinks, currentPageUrl, navBarTextColor) {
+    renderNavLinks(navLinks, currentPageUrl, navBarTextColor, navBarTextColorActive) {
         return (
             <React.Fragment>
                 <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation" style={{backgroundColor: `coral`, color: navBarTextColor}}>
