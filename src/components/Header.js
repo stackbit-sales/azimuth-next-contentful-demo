@@ -96,12 +96,18 @@ export default class Header extends React.Component {
         let navBarBackgroundColor = _.get(header, 'navBarBackgroundColor');
         let navBarTextColor = _.get(header, 'navBarTextColor');
         let navLinksOrder = _.get(header, 'navLinksOrder');
-        let navLinksOrder = _.get(header, 'navLinksOrder');
+        let logoPosition = _.get(header, 'logoPosition');
 
         if (navLinksOrder === "left to right") {
             navLinksOrder = "";
         } else {
             navLinksOrder = "row-reverse";
+        }
+
+        if (logoPosition === "left (or top)") {
+            logoPosition = 0;
+        } else {
+            logoPosition = 1;
         }
 
         return (
