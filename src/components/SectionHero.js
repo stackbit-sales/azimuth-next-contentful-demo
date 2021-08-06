@@ -36,6 +36,14 @@ export default function SectionHero(props) {
     } else {
         stackedOrFlat = "column";
     }
+    
+    if (backgroundColorLeft === "lorem-ipsum") {
+        backgroundColorLeft = "white";
+    }
+
+    if (backgroundColorRight === "lorem-ipsum") {
+        backgroundColorRight = "white";
+    }
 
     if (displayHeroImage === "yes") {
         displayHeroImage = "";
