@@ -46,7 +46,7 @@ export default function SectionHero(props) {
             <div className="inner">
                 <div className="grid order-container" style={{flexDirection: stackedOrFlat}}>
                     {image && (
-                        <div className="cell block-preview" style={{order: imagePosition}}>
+                        <div className="cell block-preview" style={{order: imagePosition, display: displayHeroImage}}>
                             <img src={withPrefix(image)} alt={imageAlt} />
                         </div>
                     )}
