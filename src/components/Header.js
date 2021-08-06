@@ -101,7 +101,7 @@ export default class Header extends React.Component {
             <header id="masthead" className="site-header outer">
                 <div className="inner">
                     <div className="site-header-inside">
-                        <div className="site-branding">
+                        <div className="site-branding" style={{}}>
                             {logoImage && (
                                 <p className="site-logo">
                                     <Link href={withPrefix('/')}>
