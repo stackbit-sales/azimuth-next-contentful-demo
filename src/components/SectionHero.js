@@ -45,7 +45,7 @@ export default function SectionHero(props) {
         buttonAlignment = "flex-start";
     } else if (buttonAlignment === "right") {
         buttonAlignment = "flex-end";
-    }
+    } else if (buttonAlignment === "right")
     
     
 
