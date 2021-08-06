@@ -137,7 +137,7 @@
     }
   }
 
-  .hero-block,
+//   .hero-block,
   .text-block,
   .block-item:nth-child(2n + 1) {
     .grid {
@@ -470,7 +470,7 @@
 
 .handorgel__header {
   background: #fff;
-  border-radius: $border-radius;
+  border-radius: 2px solid;
   box-shadow: $box-shadow;
   box-sizing: border-box;
   font-size: 1em;
@@ -529,7 +529,7 @@
 }
 
 .handorgel__header--open.handorgel__header--opened {
-  border-radius: $border-radius $border-radius 0 0;
+  border-radius: 2px 2px 0 0;
 
   .icon-plus:after {
     display: none;
@@ -616,6 +616,5 @@
 }
 
 .order-container {
-    display: flex; 
-    flex-direction: row;
+    display: flex;
 }

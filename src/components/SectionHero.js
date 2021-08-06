@@ -18,17 +18,26 @@ export default function SectionHero(props) {
     const backgroundColorLeft = _.get(section, 'backgroundColorLeft');
     const backgroundColorRight = _.get(section, 'backgroundColorRight');
     let imagePosition = _.get(section, 'imagePosition');
-    if (imagePosition === "left") {
-        imagePosition = 1;
-    } else {
+    let stackedOrFlat = _.get(section, 'stackedOrFlat');
+    
+    if (imagePosition === "left (or top)") {
         imagePosition = 0;
+    } else {
+        imagePosition = 1;
     }
 
+    if (stackedOrFlat === "flat") {
+        stackedOrFlat = "row";
+    } else {
+        stackedOrFlat = "column";
+    }
+    console.log('stackedOrFlat', stackedOrFlat);
+    
 
     return (
         <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`}}>
             <div className="inner">
-                <div className="grid order-container">
+                <div className="grid order-container" style={{flexDirection: stackedOrFlat}}>
                     {image && (
                         <div className="cell block-preview" style={{order: imagePosition}}>
                             <img src={withPrefix(image)} alt={imageAlt} />
