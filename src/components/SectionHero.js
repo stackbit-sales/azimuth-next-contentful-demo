@@ -52,7 +52,7 @@ export default function SectionHero(props) {
                             <img src={withPrefix(image)} alt={imageAlt} />
                         </div>
                     )}
-                    <div className="cell block-content order-content" style={{background: `coral`, textAlign: textAlign, alignItems: `right`}}>
+                    <div className="cell block-content order-content" style={{background: `coral`, textAlign: textAlign}}>
                         {title && <h2 className="block-title underline" style={{color: titleColor}}>{title}</h2>}
                         {content && (
                             <div style={{color: subtitleColor}}>
@@ -60,7 +60,7 @@ export default function SectionHero(props) {
                             </div>
                         )}
                         {actions && (
-                            <div className="block-buttons">
+                            <div className="block-buttons" style={{alignItems: `right`}}>
                                 <CtaButtons actions={actions} />
                             </div>
                         )}
